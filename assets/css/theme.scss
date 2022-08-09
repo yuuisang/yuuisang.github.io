@@ -8,6 +8,12 @@ $blue:    #3d61fd !default;
 
 @import 'bootstrap/bootstrap';
 
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
 
@@ -20,7 +26,7 @@ body {
     background:#fff;
     font-size:17px;
     transition: all 200ms linear;
-    font-family: "PT Sans",sans-serif;
+    font-family: 'RIDIBatang', "PT Sans",sans-serif;
     line-height:1.7;
     color: #333;
     overflow-x:hidden;
@@ -28,7 +34,7 @@ body {
     
 }
 .serif-font {
-    font-family:PT Serif;
+    font-family:'RIDIBatang', PT Serif;
 }
 @media (max-width: 1366px) {
     .container-xl, .container-lg, .container-md, .container-sm, .container {
@@ -300,7 +306,7 @@ span.post-name a,span.post-read-more a:hover {
     line-height: 1.64;
 	color:rgba(0,0,0,.8);
     code {
-        font-size:15px;
+        font-size:14px;
     }
     a {
         color:inherit; 
@@ -544,7 +550,7 @@ background-color: #fff;
 
 .article-post .h1, .article-post .h2, .article-post .h3, .article-post .h4, .article-post .h5, .article-post .h6, .article-post h1, .article-post h2, .article-post h3, .article-post h4, .article-post h5, .article-post h6 {
     font-weight: 600;
-    font-family: PT Sans;
+    font-family: 'RIDIBatang', PT Sans;
     margin-top: 3rem;
 }
 
