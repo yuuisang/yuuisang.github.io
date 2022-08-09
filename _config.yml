@@ -1,6 +1,7 @@
 title: "Affiliates"
 email: clothes.yoo@gmail.com
 timezone: UTC
+url: "affiliates-jekyll-theme"
 baseurl: "https://yuuisang.github.io"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
