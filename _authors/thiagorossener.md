@@ -1,15 +1,15 @@
 ---
 layout: author
 photo: /assets/img/uploads/profile.png
-name: thiagorossener
+name: woody
 display_name: Thiago Rossener
 position: Chief Editor
 bio: Just a developer.
-github_username: thiagorossener
-facebook_username: thiagorossener
-twitter_username: thiagorossener
-instagram_username: thiagorossener
-linkedin_username: thiagorossener
-medium_username: thiagorossener
+github_username: woody
+facebook_username: woody
+twitter_username: woody
+instagram_username: woody
+linkedin_username: woody
+medium_username: woody
 ---
 
