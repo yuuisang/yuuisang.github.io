@@ -5,7 +5,7 @@ url                          : "" # the base hostname & protocol for your site
                                   # `http://<username>.github.io` - for GitHub
 
 blog:
-  title                      : dactl
+  title                      : woody
   description                  : >
                                this should contain a proper description
 
@@ -26,9 +26,9 @@ blog:
 
 # Author info
 author:
-  fullname                  : Your Name
+  fullname                  : EuiSang Yu
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : your@email.com # change to your e-mail address
+  mail                      : clothes.yoo@gmail.com # change to your e-mail address
   twitter                   : twitter-user-name
   github                    : github-user-name
   youtube                   : youtube-user-name
