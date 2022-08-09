@@ -1,0 +1,234 @@
+I"ß	<div class="page">
+
+
+
+<div class="page-title-container">
+  <div class="heading-container">
+    <h1>Archive</h1>
+    <span>
+  <div class="searchbox">
+  <form method="get" id="searchie" action="http://duckduckgo.com/">
+    <input type="hidden" name="sites" value="" />
+    <input type="hidden" name="k8" value="#444444" />
+    <input type="hidden" name="k9" value="#D51920" />
+    <input type="hidden" name="kt" value="h" />
+    <span class="icon-search"></span>
+    <input type="search" name="q" maxlength="255" placeholder="Search&hellip;" />
+    <!-- <input type="button"/> -->
+  </form>
+</div>
+
+</span>
+  </div>
+</div>
+
+
+    
+
+    
+    
+      
+
+  	
+  	
+  		
+  			
+  			<h1>
+
+
+
+
+    
+
+    
+
+    
+    
+
+    
+    March 2017
+
+</h1>
+  			<ul class="related-posts">
+  		
+
+      <li>
+    <a href="/affiliates-jekyll-theme/welcome-to-dactl/">
+        <span>Welcome to dactl!</span>
+        <small>22/03</small>
+    </a>
+</li>
+
+
+      
+
+     
+
+    
+    
+      
+
+  	
+  	
+  		
+
+      <li>
+    <a href="/affiliates-jekyll-theme/notices/">
+        <span>Notice blocks</span>
+        <small>20/03</small>
+    </a>
+</li>
+
+
+      
+
+     
+
+    
+    
+      
+
+  	
+  	
+  		
+
+      <li>
+    <a href="/affiliates-jekyll-theme/config-settings/">
+        <span>Layout settings and more in _config.yml</span>
+        <small>20/03</small>
+    </a>
+</li>
+
+
+      
+
+     
+
+    
+    
+      
+
+  	
+  	
+  		
+
+      <li>
+    <a href="/affiliates-jekyll-theme/yaml-frontmatter/">
+        <span>YAML front matter in posts</span>
+        <small>19/03</small>
+    </a>
+</li>
+
+
+      
+
+     
+
+    
+    
+      
+
+  	
+  	
+  		
+
+      <li>
+    <a href="/affiliates-jekyll-theme/tags-in-dactyl/">
+        <span>Tags in dactl</span>
+        <small>18/03</small>
+    </a>
+</li>
+
+
+      
+
+     
+
+    
+    
+      
+
+  	
+  	
+  		
+
+      <li>
+    <a href="/affiliates-jekyll-theme/post-excerpts-lead-paragraphs/">
+        <span>Post excerpts and leading paragraphs</span>
+        <small>17/03</small>
+    </a>
+</li>
+
+
+      
+
+     
+
+    
+    
+      
+
+  	
+  	
+  		
+
+      <li>
+    <a href="/affiliates-jekyll-theme/footnotes-in-dactl/">
+        <span>Footnotes</span>
+        <small>16/03</small>
+    </a>
+</li>
+
+
+      
+
+     
+
+    
+    
+      
+
+  	
+  	
+  		
+  			
+  			</ul>
+  			
+  			<h1>
+
+
+
+
+    
+
+    
+
+    
+    
+
+    
+    January 2017
+
+</h1>
+  			<ul class="related-posts">
+  		
+
+      <li>
+    <a href="/affiliates-jekyll-theme/example-content/">
+        <span>Example content</span>
+        <small>20/01</small>
+    </a>
+</li>
+
+
+      
+
+     
+  	 </ul>
+
+
+  
+
+
+</div>
+:ET

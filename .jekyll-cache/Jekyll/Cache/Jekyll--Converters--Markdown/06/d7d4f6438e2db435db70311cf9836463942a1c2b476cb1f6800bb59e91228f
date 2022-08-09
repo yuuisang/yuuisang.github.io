@@ -1,0 +1,24 @@
+I"i<p class="lead">Tags are built using Jekyll’s native categories functionality and you need to add them manually as files before using them in posts. Read on to learn how.</p>
+
+<h2 id="how-to-add-a-new-tag">How to add a new tag</h2>
+<p>Please make sure to do the following for each tag:
+&lt;!–-break-–&gt;</p>
+
+<p>Create a .md file within <code>_my_tags</code> folder with the name of your category, e.g. <code>cool-stuff.md</code>. This file needs to look like this:</p>
+
+<pre><code>---
+slug: cool-stuff
+name: Cool Stuff
+description: &gt;
+             This is an awesome description of my cool stuff tag which will be display underneath the title of this tag's page.
+---
+</code></pre>
+
+<p><code>slug</code> is a mandatory field and defines tag’s slug, accessible at <code>yourblog.com/tag/dactl/</code>, use <code>-</code> instead of spaces here.<br />
+<code>name</code> is a mandatory field and defines tag’s name, e.g. <code>Cool Stuff</code>.<br />
+<code>description</code> is an optional field, it’s visible on tag’s page.<br />
+Click <a href="/affiliates-jekyll-theme/tag/dactl">here</a> and <a href="/affiliates-jekyll-theme/tag/howto">here</a> to see the difference.</p>
+
+<h2 id="optional">Optional</h2>
+<p>You can configure the Archive page to show ‘Tag box’ underneath the search box - this box will contain all of your blog’s tags with links to them.</p>
+:ET
