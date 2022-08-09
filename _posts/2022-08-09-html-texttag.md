@@ -5,7 +5,7 @@ categories: [ HTML ]
 image: assets/images/html/html.png
 ---
 
-## <p> 태그
+## p 태그
 
 문단을 표시하는 태그(단락을 구분)
 
@@ -20,7 +20,7 @@ image: assets/images/html/html.png
 </html>
 ```
 
-## <h1>, <h2> ... <h6> 태그
+## h1, h2 ... h6 태그
 
 헤드라인을 표시하는 태그이며, 숫자가 작을수록 크기가 크다.
 
@@ -39,7 +39,7 @@ image: assets/images/html/html.png
 </html>
 ```
 
-## <hr> 태그
+## hr 태그
 
 수평선을 표시하는 태그로 주제 변경이나 내용 구분시에 사용하는 태그이다.
 
@@ -57,9 +57,9 @@ image: assets/images/html/html.png
 </html>
 ```
 
-## <br> 태그
+## br 태그
 
-줄바꿈(==Enter) 을 적용해주는 태그이다. <br> 태그 하나당 1줄씩 줄바꿈 처리 된다.
+줄바꿈(==Enter) 을 적용해주는 태그이다. br 태그 하나당 1줄씩 줄바꿈 처리 된다.
 
 ```
 <html>
@@ -73,9 +73,9 @@ image: assets/images/html/html.png
 </html>
 ```
 
-## <b> 태그
+## b 태그
 
-해당 <b> ~~ </b> 안의 텍스트에 Bold(강조) 를 적용한다.
+해당 b ~~ /b 안의 텍스트에 Bold(강조) 를 적용한다.
 
 ```
 <html>
@@ -91,9 +91,9 @@ image: assets/images/html/html.png
 </html>
 ```
 
-## <strong> 태그
+## strong 태그
 
-해당 <strong> ~~ </strong> 안의 텍스트를 굵게 만든다.
+해당 strong ~~ /strong 안의 텍스트를 굵게 만든다.
 
 ```
 <html>
@@ -109,9 +109,9 @@ image: assets/images/html/html.png
 </html>
 ```
 
-## <u> 태그
+## u 태그
 
-해당 <u> ~~ </u> 안의 텍스트에 언더바( \_ ) 를 적용한다.
+해당 u ~~ /u 안의 텍스트에 언더바( \_ ) 를 적용한다.
 
 ```
 <html>
@@ -127,9 +127,9 @@ image: assets/images/html/html.png
 </html>
 ```
 
-## <em> 태그
+## em 태그
 
-해당 <em> ~~ </em> 안의 텍스트에 이탈릭체(폰트)를 적용한다.
+해당 em ~~ /em 안의 텍스트에 이탈릭체(폰트)를 적용한다.
 
 ```
 <html>
@@ -145,9 +145,9 @@ image: assets/images/html/html.png
 </html>
 ```
 
-## <mark> 태그
+## mark 태그
 
-해당 <mark> ~~ </mark> 안의 텍스트에 형광펜 표시를 적용한다.
+해당 mark ~~ /mark 안의 텍스트에 형광펜 표시를 적용한다.
 
 ```
 <html>
