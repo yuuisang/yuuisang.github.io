@@ -1,9 +1,8 @@
-# Generated site
-/_site
-
-# Local packages
-/.bundle/ruby/
-
-# Temporary files
-.sass-cache/
-.jekyll-metadata
+.idea
+.DS_Store
+.sass-cache
+Gemfile.lock
+package-json.lock
+_site
+node_modules
+_drafts
