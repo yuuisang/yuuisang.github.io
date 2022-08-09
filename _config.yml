@@ -15,7 +15,7 @@ menu:
     url: /
   - title: About
     url: /about
-  - title: 카테고리
+  - title: Category
     url: /tags
   - title: Contact
     url: /contact
