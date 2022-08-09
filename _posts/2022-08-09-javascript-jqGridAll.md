@@ -2,7 +2,7 @@
 layout: post
 title:  "[Javscript] jqGrid 사용법 총 정리"
 categories: [ Javascript ]
-image: assets/images/javascript/javascript.jpg
+image: assets/images/javascript/javascript.png
 ---
 
 ## 소개

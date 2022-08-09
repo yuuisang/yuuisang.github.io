@@ -2,7 +2,7 @@
 layout: post
 title:  "[Javscript] Object.keys - 객체의 Key 값 가져오기, Object.value - value값 가져오기"
 categories: [ Javascript ]
-image: assets/images/javascript/javascript.jpg
+image: assets/images/javascript/javascript.png
 ---
 
 데이터를 객체로 다루다보면 key값만 추출해서 따로 사용하거나 value값만 추출해서 사용해야하는 경우가 종종 생긴다.  

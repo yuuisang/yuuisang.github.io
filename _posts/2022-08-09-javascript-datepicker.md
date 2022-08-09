@@ -2,7 +2,7 @@
 layout: post
 title:  "[Javscript] jQuery UI datepicker 사용법(ex_날짜 제한)"
 categories: [ Javascript ]
-image: assets/images/javascript/javascript.jpg
+image: assets/images/javascript/javascript.png
 ---
 
 ## 기본 세팅 옵션
