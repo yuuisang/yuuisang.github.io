@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HTML 컨테이너 태그(div, span) - 시멘틱 구조"
+title:  "[HTML] 컨테이너 태그(div, span) - 시멘틱 구조"
 categories: [ HTML ]
 image: assets/images/html/html.png
 ---

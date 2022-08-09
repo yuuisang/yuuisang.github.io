@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HTML 텍스트 관련 태그(p, hr, em, strong, u, b, mark, br ...) 사용법"
+title:  "[HTML] 텍스트 관련 태그(p, hr, em, strong, u, b, mark, br ...) 사용법"
 categories: [ HTML ]
 image: assets/images/html/html.png
 ---

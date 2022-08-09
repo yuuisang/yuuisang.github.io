@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "HTML 이미지(img) 태그"
+title:  "[HTML] 이미지(img) 태그"
 categories: [ HTML ]
 image: assets/images/html/html.png
 ---
