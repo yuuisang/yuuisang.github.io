@@ -13,7 +13,7 @@ topmenu:
 - title: Contact
   url: "contact/"
 
-- title: Get this theme  
+- title: 추후에 수정
   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/
   class: "ml-2 btn btn-dark text-white px-3"
   external: true
