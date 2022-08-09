@@ -2,7 +2,7 @@
 layout: author
 photo: /assets/img/uploads/profile.png
 name: woody
-display_name: Thiago Rossener
+display_name: Woody
 position: Chief Editor
 bio: Just a developer.
 github_username: woody

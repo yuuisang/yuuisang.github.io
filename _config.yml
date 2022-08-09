@@ -1,7 +1,7 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by
+name: woodyflix
+title: woodyflix | A blog theme for Jekyll
+description: woodyflix is a template for Jekyll inspired by Netflix and made by
   Thiago Rossener.
 tags:
   - blog
@@ -21,7 +21,7 @@ menu:
     url: /contact
   - title: Feed
     url: /feed.xml
-email: youremail@test.com
+email: clothes.yoo@gmail.com
 # See: https://disqus.com/
 disqus_username: disqus_username
 # Contact Form Setting
