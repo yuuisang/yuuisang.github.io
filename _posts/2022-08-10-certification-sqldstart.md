@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[자격증] SQLD 접수 & 공부 시작"
-categories: [ 자격증, SQLD ]
+categories: [ 자격증 ]
 image: assets/images/certification/sqld.png
 ---
 
