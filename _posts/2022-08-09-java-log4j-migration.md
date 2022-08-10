@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Javs] log4j Migration - Maven,Gradle 없이 순수 jar 파일로 마이그레이션하는 방법"
+title:  "[Java] log4j Migration - Maven,Gradle 없이 순수 jar 파일로 마이그레이션하는 방법"
 categories: [ Java ]
 image: assets/images/java/log4j.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Javs] log4j 2 사용법"
+title:  "[Java] log4j 2 사용법"
 categories: [ Java ]
 image: assets/images/java/log4j.jpg
 ---

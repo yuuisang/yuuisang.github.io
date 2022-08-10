@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Javs] log4j 보안 취약점 이슈 동작 원리 및 해결법"
+title:  "[Java] log4j 보안 취약점 이슈 동작 원리 및 해결법"
 categories: [ Java ]
 image: assets/images/java/log4j.jpg
 ---
