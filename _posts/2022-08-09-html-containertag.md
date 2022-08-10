@@ -11,6 +11,7 @@ image: assets/images/html/html.png
 
 ## 시멘틱(Semantic) 태그
 
+![](https://velog.velcdn.com/images/clothes/post/47f0293b-02ac-4190-a84d-91fb5752f5ca/image.png)
 
 시멘틱 태그란 브라우저, 개발자와 사용자에게 태그에 종속되어있는 내용을 직설적으로 알려주는 태그이다.
 

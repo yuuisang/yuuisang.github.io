@@ -12,57 +12,72 @@ image: assets/images/html/html.png
 ### text
 
 디폴트 값. 한줄의 텍스트 필드이다. 새줄 문자는 입력값으로부터 자동으로 제거 됨.
+![](https://velog.velcdn.com/images/clothes/post/21bde81f-c0e8-4859-b2a2-441007fc5dad/image.png)
 
 
 ### password
 
 값이 가려진 한줄 텍스트 필드. 사이트가 안전하지 않으면 사용자에게 경고
 
+![](https://velog.velcdn.com/images/clothes/post/ccd7af7d-9ee9-4b85-b0dc-0714eeabaa1a/image.png)
 
 ### radio
 
 **같은 name 값**을 가진 여러개의 선택중에서 하나의 값을 선택하게 하는 라디오 버튼
 
+![](https://velog.velcdn.com/images/clothes/post/7df3f73a-3ace-411e-b2f4-090561677b42/image.png)
 
 ### submit
 
 form ~ /form 내에 있는 정보들을 서버로 전달하는 버튼
 
+![](https://velog.velcdn.com/images/clothes/post/c90694a2-bcde-43c1-b3cb-0a8df761babc/image.png)
 
 ### range
 
 값이 가려진 숫자를 입력하는 컨트롤. 디폴트 값이 중간값인 범위 위젯으로 표시하고, 접속사 min 와 max 사이에 사용되며 수용가능한 값의 범위를 정의한다.
 
+![](https://velog.velcdn.com/images/clothes/post/e6dc1932-0929-43e8-8d99-c6ae3bd862b9/image.png)
 
 ### button
 
 기본 행동을 가지지 않으며 value을 레이블로 사용하는 푸시 버튼.
 
+![](https://velog.velcdn.com/images/clothes/post/159419e3-b3ae-4b68-867a-dcfaf9af72be/image.png)
 
 ### checkbox
 
 단일 값을 선택하거나 선택 해제할 수 있는 체크박스.
 
+![](https://velog.velcdn.com/images/clothes/post/f1e1bcad-69e4-4a14-904a-a5aa515f39a1/image.png)
 
 ### date
 
 날짜(연월일, 시간 없음)를 지정할 수 있는 컨트롤. 브라우저가 지원하는 경우, 활성화 시 날짜를 선택할 수 있는 달력 등을 열어준다.
 
+![](https://velog.velcdn.com/images/clothes/post/aaee5aaa-ca91-4162-8948-8fe184c767b7/image.png)
+
+![](https://velog.velcdn.com/images/clothes/post/72f0d4c7-b884-40ee-96ee-1061e2a69425/image.png)
 
 ### file
 
 파일을 지정할 수 있는 컨트롤. accept 특성을 사용하면 허용하는 파일 유형을 지정할 수 있다.
 
+![](https://velog.velcdn.com/images/clothes/post/89c972e1-8884-45cd-8889-7286cd174c7e/image.png)
+
+![](https://velog.velcdn.com/images/clothes/post/ac8e5f05-04c1-40a3-9e64-86eebf485736/image.png)
 
 ### hidden
 
 형태가 보이지 않지만 값만 서버로 전송하는 타입이다. 자주 사용되는 타입!
 
+![](https://velog.velcdn.com/images/clothes/post/69f877eb-0575-40fc-9415-12f0d6cb98c2/image.png)
 
 ### image
 
 src 특성에 지정한 이미지로 나타나는 시각적 제출 버튼. <img> 태그와 동일
 
+![](https://velog.velcdn.com/images/clothes/post/ea3f7c53-45cd-475d-9372-9ee4ee644ad9/image.png)
 
 ~이 외에도 몇개 더 있지만 딱히 중요한 것은 없다.~
 
