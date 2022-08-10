@@ -60,15 +60,16 @@ Sitemap: https://yuuisang.github.io/sitemap.xml
 2. 본인의 url을 등록해야 한다. 방법은 여러가지 있는데 HTML 파일을 직접 저장시키는게 가장 권장사항이다.
 ![](https://velog.velcdn.com/images/clothes/post/e6af0472-c90e-4fdb-871f-7987232d41bb/image.png)
 
-이 파일을 깃허브 디렉토리 내 루트에 저장!
+3. 이 파일을 깃허브 디렉토리 내 루트에 저장!
 ![](https://velog.velcdn.com/images/clothes/post/36fab3e7-4c76-493a-8af0-a9a4059e4045/image.png)
-
 ![](https://velog.velcdn.com/images/clothes/post/23168394-fd67-4dad-ab40-ca0cc92a6570/image.png)
 
-3. 여기까지 됐으면 좌측 메뉴에서 Sitemaps 을 클릭 -> 새 사이트맵 추가 에 https://본인깃허브주소/sitemap.xml 을 입력 -> 제출 버튼 클릭
+4. 여기까지 됐으면 좌측 메뉴에서 Sitemaps 을 클릭 -> 새 사이트맵 추가 에 https://본인깃허브주소/sitemap.xml 을 입력 -> 제출 버튼 클릭
 ![](https://velog.velcdn.com/images/clothes/post/ee322542-062a-40f3-9f54-7b28d1b13a11/image.png)
 
-4. 위 이미지처럼 뜨면 성공이다.
+5. 위 이미지처럼 뜨면 성공이다.
+
+<br>
 
 여기까지 구글서치콘솔 작업은 끝! 다음은 네이버...!
 
