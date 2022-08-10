@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "[블로그] 티스토리 업비트 실시간 가격 띄우기"
-categories: [ 티스토리 ]
+categories: [ Blog ]
 image: assets/images/blog/upbit.png
 ---
 
