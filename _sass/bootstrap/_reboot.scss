@@ -167,6 +167,11 @@ dfn {
 b,
 strong {
   font-weight: bolder; // Add the correct font weight in Chrome, Edge, and Safari
+  color: #e83e8c;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: 0px 5px 5px 0px lightgray;
 }
 // stylelint-enable font-weight-notation
 

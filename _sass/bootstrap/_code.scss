@@ -45,7 +45,7 @@ pre {
   border-radius: 0 0 10px 10px;
   padding: 2em;
   max-height: 500px;
-  overflow: scroll;
+  overflow: auto;
 
   // Account for some code outputs that place code tags in pre tags
   code {
