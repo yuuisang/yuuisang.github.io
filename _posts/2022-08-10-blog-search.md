@@ -52,7 +52,6 @@ Sitemap: https://yuuisang.github.io/sitemap.xml
 이제  각 포털사이트에 등록하러 가보자!
 
 ---
-<br>
 
 ## 구글서치콘솔 등록
 1. [구글 웹마스터 도구](https://search.google.com/search-console?resource_id=https%3A%2F%2Fyuuisang.github.io%2F&hl=ko) 접속 -> **URL 접두어** 탭으로 이동 -> 등록하고자하는 사이트의 **URL 입력** -> 계속 버튼 클릭
@@ -74,8 +73,6 @@ Sitemap: https://yuuisang.github.io/sitemap.xml
 여기까지 구글서치콘솔 작업은 끝! 다음은 네이버...!
 
 ---
-<br>
-
 ## 네이버 서치어드바이저
 1. [네이버 서치어드바이저](https://searchadvisor.naver.com/) 에 접속.
 2. **웹 마스터 도구** -> **사이트 관리** -> **사이트 등록 페이지**로 이동한다.
@@ -108,8 +105,6 @@ Sitemap: https://yuuisang.github.io/sitemap.xml
 5. 잘 되었는지 확인해 본다.
 
 ---
-<br>
-
 
 ## 다음 
 1. [다음 검색등록](https://register.search.daum.net/index.daum) 에 접속한다.
@@ -122,7 +117,6 @@ Sitemap: https://yuuisang.github.io/sitemap.xml
 앞서 두 구글,네이버 사이트에 비해 엄청 간단하다.
 
 ---
-<br>
 
 ## SEO 검색 엔진 최적화
 https://tech.songyunseop.com/post/2016/09/seo-for-blog/
