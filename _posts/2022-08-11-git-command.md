@@ -254,7 +254,8 @@ image: assets/images/git/git.png
    $ git config alias.history 'log --pretty=oneline'
    ```
 2. tag 설정 하기
-   ```$ git tag **태그이름****커밋 ID**
+   ```
+   $ git tag **태그이름****커밋 ID**
    $ git tag Version_2 86a99 # tag 달기
    $ git tag #tag 조회하기
    $ git show Version_2
