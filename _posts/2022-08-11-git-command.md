@@ -5,7 +5,7 @@ categories: [Git]
 image: assets/images/git/git.png
 ---
 
-## git 유저 / 업로드 설정
+## git 초기 세팅 관련
 
 1. 현재 위치에서 지역 저장소를 생성
    ```
@@ -132,7 +132,7 @@ image: assets/images/git/git.png
    ```
 
 
-## git hub 원격 저장소
+## github 원격 저장소
 
 1. 원격 저장소에 연결
    ```
