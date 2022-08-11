@@ -13,11 +13,11 @@ image: assets/images/git/git.png
    ```
 2. 깃 환경에서 사용자 이름을 **사용자명**으로 지정
    ```
-   $ git config --global user.name "**사용자명**"
+   $ git config --global user.name "사용자명"
    ```
 3. 깃 환경에서 사용자 이메일을 **사용자이메일명**으로 지정
    ```
-   $ git config --global user.email "**사용자이메일명**"
+   $ git config --global user.email "사용자이메일명"
    ```
 4. 깃의 상태를 확인
    ```
@@ -29,15 +29,15 @@ image: assets/images/git/git.png
 
 1. **파일명.확장자명**을 스테이지에 올림
    ```
-   $ git add **파일명.확장자명**
+   $ git add 파일명.확장자명
    ```
 2. 커밋 메시지 **메시지명**을 붙여 커밋
    ```
-   $ git commit -m "**메시지명**"
+   $ git commit -m "메시지명"
    ```
 3. 메시지 **메시지명**을 붙여서 스테이징과 커밋을 동시에 진행
    ```
-   $ git commit -a -m "**메시지명**"
+   $ git commit -a -m "메시지명"
    ```
 4. 커밋 내역 확인
    ```
@@ -47,17 +47,17 @@ image: assets/images/git/git.png
 
 5. 특정 커밋 내역 확인
    ```
-   $ git show **커밋 id**
+   $ git show 커밋 id
    ```
 
 6. 최근 버전과 작업 폴더의 수정 파일 사이의 차이를 출력
    ```
    $ git diff
-   $ git diff **이전커밋 id** **이후커밋 id**
+   $ git diff 이전커밋 id 이후커밋 id
    ```
 7. 지정한 커밋 해시로 이동
    ```
-   $ git checkout **커밋 해시**
+   $ git checkout 커밋 해시
    ```
 8. 가장 최근 커밋을 취소
    ```
@@ -66,18 +66,18 @@ image: assets/images/git/git.png
    ```
 9. 지정한 커밋 해시로 이동하고 커밋을 취소
    ```
-   $ git reset **커밋 해시**
+   $ git reset 커밋 해시
    ```
    reset의 3가지 옵션
    ```
-   $ git reset --soft **커밋ID** # head 만 바뀜
-   $ git reset --mixed **커밋ID** # staging 도 그 때로 바뀜
-   $ git reset --hard **커밋ID** # working디렉토리/staging 모두 그 때로 바꿈
+   $ git reset --soft 커밋ID # head 만 바뀜
+   $ git reset --mixed 커밋ID # staging 도 그 때로 바뀜
+   $ git reset --hard 커밋ID # working디렉토리/staging 모두 그 때로 바꿈
    ```
 
 10. 지정한 커밋 해시의 변경 이력을 취소
     ```
-    $ git revert **커밋 해시**
+    $ git revert 커밋 해시
     ```
 11. 커밋 수정하는 법
     파일 수정 한 뒤
@@ -91,7 +91,7 @@ image: assets/images/git/git.png
 
 1. 새로운 브랜치 **브랜치명**을 생성
    ```
-   $ git branch **브랜치명**
+   $ git branch 브랜치명
    ```
    브랜치 조회하기
    ```
@@ -99,10 +99,10 @@ image: assets/images/git/git.png
    ```
 2. **브랜치명**으로 체크아웃(이동)
    ```
-   $ git checkout **브랜치명**
+   $ git checkout 브랜치명
    ```
    ```
-   $ git checkout -b **브랜치명** # 브랜치만들고 바로 이동
+   $ git checkout -b 브랜치명 # 브랜치만들고 바로 이동
    ```
    브랜치 삭제
    ```
@@ -122,9 +122,9 @@ image: assets/images/git/git.png
    ```
 6. **브랜치명**을 master 브랜치와 병합
    ```
-   $ git merge **브랜치명**
-   $ git merge **브랜치명** --edit // 병합 후 바로 vi 편집기가 나오면서 커밋 메시지 수정 가능
-   $ git merge **브랜치명** --no-edit // 커밋 메시지 수정없이 바로 병합
+   $ git merge 브랜치명
+   $ git merge 브랜치명 --edit // 병합 후 바로 vi 편집기가 나오면서 커밋 메시지 수정 가능
+   $ git merge 브랜치명 --no-edit // 커밋 메시지 수정없이 바로 병합
    ```
 7. merge 취소하기
    ```
@@ -136,8 +136,8 @@ image: assets/images/git/git.png
 
 1. 원격 저장소에 연결
    ```
-   $ git remote add origin **github 레포지 주소**
-   $ git remote add origin **branch 이름** #없으면 생성됨
+   $ git remote add origin github 레포지 주소
+   $ git remote add origin branch 이름 #없으면 생성됨
    ```
 2. 원격 저장소에 연결됐는지 확인
    ```
@@ -168,7 +168,7 @@ image: assets/images/git/git.png
    ```
    원격 저장소를 **지역저장소명**에 복제하기
    ```
-   $ git clone **원격 저장소 주소**
+   $ git clone 원격 저장소 주소
    ```
 8. 원격 저장소의 커밋을 가져오기만 하고 merge하지 않는다
    가져온 branch 내용은 origin/**브랜치** 로 저장됨
@@ -189,11 +189,11 @@ image: assets/images/git/git.png
     ```
 11. **브랜치명**을 만드는 것과 동시에 체크아웃한다
     ```
-    $ git checkout -b **브랜치명**
+    $ git checkout -b 브랜치명
     ```
 12. 원격 저장소에 **브랜치명**의 브랜치의 커밋을 올린다
     ```
-    $ git push origin **브랜치명**
+    $ git push origin 브랜치명
     ```
 13. 원격저장소 삭제
     ```
@@ -205,19 +205,19 @@ image: assets/images/git/git.png
 
 1. 파일 내용 출력
    ```
-   $ cat **파일명.확장자명**
+   $ cat 파일명.확장자명
    ```
 2. 디렉토리를 만드는 동시에 지역저장소 생성
    ```
-   $ cd init **디렉토리명**
+   $ cd init 디렉토리명
    ```
 3. 현재 커밋을 다른 브랜치에 있는 **커밋메시지** 커밋으로 되돌림
    ```
-   $ git reset **커밋메시지** **커밋해시**
+   $ git reset 커밋메시지 커밋해시
    ```
 4. 병합이 끝난 **브랜치명**을 삭제
    ```
-   $ git branch **브랜치명** -d
+   $ git branch 브랜치명 -d
    ```
 5. 작업 트리의 수정 내용 stash에 따로 보관하기
    ```
@@ -250,12 +250,12 @@ image: assets/images/git/git.png
    ex) git log --pretty=oneline을
    ->git history 라는 별명으로 바꾸기.
    ```
-   $ git config alias.**별명** '원하는 명령어'
+   $ git config alias.별명 '원하는 명령어'
    $ git config alias.history 'log --pretty=oneline'
    ```
 2. tag 설정 하기
    ```
-   $ git tag **태그이름****커밋 ID**
+   $ git tag 태그이름 커밋 ID
    $ git tag Version_2 86a99 # tag 달기
    $ git tag #tag 조회하기
    $ git show Version_2
