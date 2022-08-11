@@ -1,127 +1,163 @@
 ---
 layout: post
-title:  "[blog] Github 블로그 검색엔진에 등록 (구글/네이버/다음)"
-categories: [ Blog ]
-image: assets/images/blog/github.png
+title: "[Git] git 명령어 모음"
+categories: [Git]
+image: assets/images/git/git.png
 ---
 
-기존에 운영하던 [티스토리 블로그](https://coding-plant.tistory.com/)에서 GitHub 블로그로 이전해 본격적으로 사용하기 위해 검색엔진에 등록을 하기로 했다.
+## git 유저 / 업로드 설정
 
-우선 우리나라에서 검색량이 많은 구글, 네이버, 다음에 등록을 해보려 한다. 각 포털사이트별로 검색엔진에 등록방법을 구글링을 해본 결과들을 정리해보려고 한다.
-
-
-## sitemap.xml 생성하기
-우선 검색엔진에서 GitHub 블로그의 글들을 긁어올 수 있도록, 사이트의 모든 페이지 정보를 모아두는 **sitemap.xml** 이 필요하다.
-
-포스팅을 업로드 할 때마다 매번 추가해주는 건 너무 노가다일테니 한번에 세팅해서 넣어주도록 하자.
-
-[사이트맵 코드 링크 이동](https://github.com/yuuisang/yuuisang.github.io/blob/main/sitemap.xml)
-
-
-위 링크의 코드를 복사해서 루트 디렉토리에 sitemap.xml 파일을 만들고 **깃에 push** 하면 된다.
-
-업로드 후, https://본인블로그주소/sitemap.xml 에 접속해서 내 블로그의 모든 페이지 주소를 정상적으로 출력하는지 확인되면 끝!
-
-예시)
-![](https://velog.velcdn.com/images/clothes/post/edec5f22-4387-4079-9e1d-70766387e789/image.png)
-
-## robots.txt 생성하기
-내 사이트를 검색엔진에 등록하면 구글 검색 엔진의 크롤러가 내 사이트에 방문하여 정보를 가져간다.
-
-이 때, 크롤러가 방문했을 때 참고할 수 있는 정책을 명시해주면 좋다.
-
-```
-User-agent: *
-Allow: /
-Sitemap: https://yuuisang.github.io/sitemap.xml
-```
-
-위 코드를 복붙해서 robots.xml 파일을 만들고, 루트디렉토리에 추가하면 됨.
-참고로 깃허브 주소는 본인껄로 변경해야함!
-
-## feed.xml 생성하기
-이건 필수는 아닌데 RSS Feed로도 등록될 수 있도록 feed.xml 까지 만들어본다.
-
-[feed.xml 코드 링크 이동](https://github.com/yuuisang/yuuisang.github.io/blob/main/feed.xml)
-
-
-위 링크내의 코드를 복사해서 feed.xml 파일을 만들고 **루트디렉토리**에 추가
-
-<br><br>
-여기까지 등록 전 준비단계는 전부 끝났다.
-이제  각 포털사이트에 등록하러 가보자!
-
----
-
-## 구글서치콘솔 등록
-1. [구글 웹마스터 도구](https://search.google.com/search-console?resource_id=https%3A%2F%2Fyuuisang.github.io%2F&hl=ko) 접속 -> **URL 접두어** 탭으로 이동 -> 등록하고자하는 사이트의 **URL 입력** -> 계속 버튼 클릭
-![](https://velog.velcdn.com/images/clothes/post/320966ba-3dd2-428a-bd3d-613beece8e76/image.png)
-
-2. 본인의 url을 등록해야 한다. 방법은 여러가지 있는데 HTML 파일을 직접 저장시키는게 가장 권장사항이다.
-![](https://velog.velcdn.com/images/clothes/post/e6af0472-c90e-4fdb-871f-7987232d41bb/image.png)
-
-3. 이 파일을 깃허브 디렉토리 내 루트에 저장!
-![](https://velog.velcdn.com/images/clothes/post/36fab3e7-4c76-493a-8af0-a9a4059e4045/image.png)
-![](https://velog.velcdn.com/images/clothes/post/23168394-fd67-4dad-ab40-ca0cc92a6570/image.png)
-
-4. 여기까지 됐으면 좌측 메뉴에서 Sitemaps 을 클릭 -> 새 사이트맵 추가 에 https://본인깃허브주소/sitemap.xml 을 입력 -> 제출 버튼 클릭
-![](https://velog.velcdn.com/images/clothes/post/ee322542-062a-40f3-9f54-7b28d1b13a11/image.png)
-
-5. 위 이미지처럼 뜨면 성공이다.
+1. 현재 위치에서 지역 저장소를 생성
+   `git $ git init`
+2. 깃 환경에서 사용자 이름을 [사용자명]으로 지정
+   `$ git config --global user.name "[사용자명]"`
+3. 깃 환경에서 사용자 이메일을 [사용자이메일명]으로 지정
+   `$ git config --global user.email "[사용자이메일명]"`
+4. 깃의 상태를 확인
+   `$ git status`
 
 <br>
 
-여기까지 구글서치콘솔 작업은 끝! 다음은 네이버...!
+## commit 명령어
 
----
-## 네이버 서치어드바이저
-1. [네이버 서치어드바이저](https://searchadvisor.naver.com/) 에 접속.
-2. **웹 마스터 도구** -> **사이트 관리** -> **사이트 등록 페이지**로 이동한다.
-![](https://velog.velcdn.com/images/clothes/post/af4058e3-d1c9-43e5-907a-cb5d0e9e3e0f/image.png)
-3. URL을 입력한다.
-4. **사이트 소유확인 페이지**에서 **HTML 파일 업로드** 를 선택한다.
-![](https://velog.velcdn.com/images/clothes/post/e0f2bbaf-2e81-4f27-a5a1-548fcabc4e97/image.png)
+1. [파일명.확장자명]을 스테이지에 올림
+   `$ git add [파일명.확장자명]`
+2. 커밋 메시지 [메시지명]을 붙여 커밋
+   `$ git commit -m "[메시지명]"`
+3. 메시지 [메시지명]을 붙여서 스테이징과 커밋을 동시에 진행
+   `$ git commit -a -m "[메시지명]"`
+4. 커밋 내역 확인
+   `$ git log `
+   `$ git log --pretty=oneline # 한줄로 표기하기`
 
-5. **HTML 확인 파일** 을 클릭하여 다운로드 한다.
-6. 등록하고자하는 깃허브의 루트 디렉토리에 해당 파일을 업로드한다.
-7. 가이드 되어있는 링크를 클릭하여 제대로 업로드 되었는지 확인한다.
-8. **소유확인 버튼**을 누른 후 아래와 같은 팝업이 뜨는지 확인한다.
-![](https://velog.velcdn.com/images/clothes/post/d04a0e7c-fb32-45ff-9e97-e4a90524ecb0/image.png)
+5. 특정 커밋 내역 확인
+   `$ git show [커밋 id]`
 
-> HTML 확인파일을 찾을수 없거나, 네이버 검색로봇 사이트 서버에 접근할 수 없습니다.
+6. 최근 버전과 작업 폴더의 수정 파일 사이의 차이를 출력
+   `$ git diff`
+   `$ git diff [이전커밋 id] [이후커밋 id]`
+7. 지정한 커밋 해시로 이동
+   `$ git checkout [커밋 해시]`
+8. 가장 최근 커밋을 취소
+   `$ git reset HEAD^ # 현재 HEAD의 이전 커밋으로 되돌리기`
+   `$ git reset HEAD~n # 현재로 부터 n 번째 이전 커밋으로 되돌리기`
+9. 지정한 커밋 해시로 이동하고 커밋을 취소
+   `$ git reset [커밋 해시]`
+   reset의 3가지 옵션
+   `$ git reset --soft [커밋ID] # head 만 바뀜`
+   `$ git reset --mixed [커밋ID] # staging 도 그 때로 바뀜`
+   `$ git reset --hard [커밋ID] # working디렉토리/staging 모두 그 때로 바꿈`
 
-9. 이런 문구가 뜬다면 하루 정도 기다렸다가 다시 진행해보면 되는 경우가 많다.
-
-10. 정상적으로 마무리가 되었다면 목록에 이렇게 뜬다.
-![](https://velog.velcdn.com/images/clothes/post/4ead899e-797a-4e0c-88c7-cda22e1a3ff5/image.png)
-
----
-
-1. 이제 **사이트맵** 을 제출해 보자!
-(구글과 동일하게 제출만 하면 된다.)
-2. 등록된 블로그 링크를 클릭하여 **사이트 관리** 페이지로 들어간다.
-3. **요청** -> **사이트맵 제출** 메뉴로 들어간다.
-4. 아까 만들어서 내 깃허브에 업로드했던 **sitemap.xml** 의 주소를 다음과 같이 입력하고 **확인** 버튼을 누른다.
-![](https://velog.velcdn.com/images/clothes/post/6beef945-de63-4233-9c82-ebeaca11d157/image.png)
-5. 잘 되었는지 확인해 본다.
-
----
-
-## 다음 
-1. [다음 검색등록](https://register.search.daum.net/index.daum) 에 접속한다.
-2. **블로그 등록** 을 클릭하고 **블로그 URL**을 넣고 **확인** 을 클릭하면 끝!
-![](https://velog.velcdn.com/images/clothes/post/b855b968-14e9-4771-94c8-98364c2d2d2d/image.png)
-![](https://velog.velcdn.com/images/clothes/post/75cd176c-3270-4cd2-a806-157e0b0dff77/image.png)
-![](https://velog.velcdn.com/images/clothes/post/cc480d45-224a-4f44-bafd-ddced1131394/image.png)
+10. 지정한 커밋 해시의 변경 이력을 취소
+    `$ git revert [커밋 해시]`
+11. 커밋 수정하는 법
+    파일 수정 한 뒤
+    `$ git add .`
+    `$ git commit --amend : 최신 커밋 수정`
 
 <br>
-앞서 두 구글,네이버 사이트에 비해 엄청 간단하다.
 
----
+## 브랜치 명령어
 
-## SEO 검색 엔진 최적화
-https://tech.songyunseop.com/post/2016/09/seo-for-blog/
+1. 새로운 브랜치 [브랜치명]을 생성
+   `$ git branch [브랜치명]`
+   브랜치 조회하기
+   `$ git branch`
+2. [브랜치명]으로 체크아웃(이동)
+   `$ git checkout [브랜치명]`
+   `$ git checkout -b [브랜치명] # 브랜치만들고 바로 이동`
+   브랜치 삭제
+   `$ git branch -d 브랜치명`
+3. 커밋 로그에서 한 줄에 한 커밋씩 출력
+   `$ git log --oneline`
+4. 수정한 전체 파일을 스페이지에 올린다.
+   `$ git add .`
+5. 커밋 로그에 각 브랜치의 커밋을 그래프로 표시
+   `$ git log --branches --graph`
+6. [브랜치명]을 master 브랜치와 병합
+   `$ git merge [브랜치명]`
+   `$ git merge [브랜치명] --edit // 병합 후 바로 vi 편집기가 나오면서 커밋 메시지 수정 가능`
+   `$ git merge [브랜치명] --no-edit // 커밋 메시지 수정없이 바로 병합`
+7. merge 취소하기
+   `$ git merge --abort`
 
-이분 포스트를 보면서 차차 진행해 볼 예정이다.
+<br>
 
+## git hub 원격 저장소
 
+1. 원격 저장소에 연결
+   `$ git remote add origin [github 레포지 주소]`
+   `$ git remote add origin [branch 이름] #없으면 생성됨`
+2. 원격 저장소에 연결됐는지 확인
+   `$ git remote -v`
+3. 지역 저장소의 커밋을 맨 처음 원격 저장소에 올리는 경우
+   `$ git push -u origin master`
+4. 3번을 한 후에 지역 저장소의 커밋을 원격 저장소에 올리는 경우(업로드)
+   `$ git push`
+   `$ git push origin master`
+5. 원격 저장소의 커밋을 지역 저장소로 가져옴
+   `$ git pull`
+   `$ git pull origin master`
+6. SSH 키를 생성함
+   `$ ssh-keygen`
+7. 원격 저장소 복제하기
+   첫번째 커밋이 아니라면 풀 먼저하기
+   `$ git remote remove origin`
+   원격 저장소를 [지역저장소명]에 복제하기
+   `$ git clone [원격 저장소 주소]`
+8. 원격 저장소의 커밋을 가져오기만 하고 merge하지 않는다
+   가져온 branch 내용은 origin/[브랜치] 로 저장됨
+   `$ git fetch`
+   이후엔 diff 로 비교
+   `$ git diff test origin/test # 브랜치 이름이 test일 경우 예시`
+9. 패치로 가져온 정보가 있는 브랜치\[FETCH_HEAD\]로 이동
+   `$ git checkout FETCH_HEAD`
+10. 패치로 가져온 정보가 있는 브랜치[FETCH_HEAD]를 master 브랜치에 병합한다
+    `$ git merge FETCH_HEAD`
+11. [브랜치명]을 만드는 것과 동시에 체크아웃한다
+    `$ git checkout -b [브랜치명]`
+12. 원격 저장소에 [브랜치명]의 브랜치의 커밋을 올린다
+    `$ git push origin [브랜치명]`
+13. 원격저장소 삭제
+    `$ git remote remove origin`
+
+<br>
+
+## 파일/보관 명령어(stash)
+
+1. 파일 내용 출력
+   `$ cat [파일명.확장자명]`
+2. 디렉토리를 만드는 동시에 지역저장소 생성
+   `$ cd init [디렉토리명]`
+3. 현재 커밋을 다른 브랜치에 있는 [커밋메시지] 커밋으로 되돌림
+   `$ git reset [커밋메시지] [커밋해시]`
+4. 병합이 끝난 [브랜치명]을 삭제
+   `$ git branch [브랜치명] -d`
+5. 작업 트리의 수정 내용 stash에 따로 보관하기
+   `$ git stash`
+   `$ git stash save`
+6. 보관한 내용을 목록을 출력
+   `$ git stash list`
+7. 보관한 내용을 적용
+   `$ git stash apply`
+   `$ git stash apply stash@{1}`
+8. 보관한 내용 중 가장 최근 항목을 삭제
+   `$ git stash drop`
+   `$ git stash drop stash@{1}`
+9. stash를 apply하고 제거(drop) 하기
+   `$ git stash pop`
+
+<br>
+
+## 기타 명령어
+
+1. 긴 명령어 짧게 이름 붙여 사용하기
+   ex) git log --pretty=oneline을
+   ->git history 라는 별명으로 바꾸기.
+   `$ git config alias.[별명] '원하는 명령어'`
+   `$ git config alias.history 'log --pretty=oneline'`
+2. tag 설정 하기
+   `$ git tag [태그이름][커밋 ID]`
+   `$ git tag Version_2 86a99 # tag 달기`
+   `$ git tag #tag 조회하기`
+   `$ git show Version_2`
