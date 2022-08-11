@@ -73,15 +73,15 @@ image: assets/images/git/git.png
    $ git reset --hard 커밋ID # working디렉토리/staging 모두 그 때로 바꿈
    ```
 지정한 커밋 해시의 변경 이력을 취소
-    ```
-    $ git revert 커밋 해시
-    ```
+   ```
+   $ git revert 커밋 해시
+   ```
 커밋 수정하는 법
-    파일 수정 한 뒤
-    ```
-    $ git add .
-    $ git commit --amend : 최신 커밋 수정
-    ```
+   파일 수정 한 뒤
+   ```
+   $ git add .
+   $ git commit --amend : 최신 커밋 수정
+   ```
 
 
 ## 브랜치 명령어
@@ -181,21 +181,21 @@ SSH 키를 생성함
    $ git checkout FETCH_HEAD
    ```
 패치로 가져온 정보가 있는 브랜치**FETCH_HEAD**를 master 브랜치에 병합한다
-    ```
-    $ git merge FETCH_HEAD
-    ```
+   ```
+   $ git merge FETCH_HEAD
+   ```
 **브랜치명**을 만드는 것과 동시에 체크아웃한다
-    ```
-    $ git checkout -b 브랜치명
-    ```
+   ```
+   $ git checkout -b 브랜치명
+   ```
 원격 저장소에 **브랜치명**의 브랜치의 커밋을 올린다
-    ```
-    $ git push origin 브랜치명
-    ```
+   ```
+   $ git push origin 브랜치명
+   ```
 원격저장소 삭제
-    ```
-    $ git remote remove origin
-    ```
+   ```
+   $ git remote remove origin
+   ```
 
 
 ## 파일/보관 명령어(stash)
