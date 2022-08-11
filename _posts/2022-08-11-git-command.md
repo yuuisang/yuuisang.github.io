@@ -8,8 +8,8 @@ image: assets/images/git/git.png
 ## git 유저 / 업로드 설정
 
 1. 현재 위치에서 지역 저장소를 생성
-   ```
-   git $ git init
+   ```git 
+   $ git init
    ```
 2. 깃 환경에서 사용자 이름을 [`사용자명`]으로 지정
    ```
