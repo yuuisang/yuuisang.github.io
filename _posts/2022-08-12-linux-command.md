@@ -26,111 +26,104 @@ ls -alrt: 정렬까지해서 상세하게 출력
 
 ### chmod (change Mode)
 권한 변경
-
+```
 chomd 664 fileName (ex. chomd 664 note.txt)
-
 chmod u+x fileName (ex. chomd u+x note.txt)
-
 u(user), g(group), o(other)를 의미하며 +는 권한부여, -는 권한박탈
-
 (ex. u+x => 유저에게 execute권한을 부여)
+```
 
 ### mkdir (make Directory)
 디렉토리를 생성함
-
+```
 mkdir dirName
+```
 
 ### touch
 빈 파일 생성
-
+```
 touch fileName
+```
 
 ### rm (remove)
 파일삭제 명령
-
+```
 rm fileName
-
 rm -r dirName (-f 옵션이 없으면 directory는 지워지지 않음)
+```
 
 ### cd (change Directory)
 디렉토리를 이동함
-
+```
 cd path
+```
 
 ### mv (move)
 파일, 디렉토리를 이동시키거나 이름을 변경시키는 명령어
-
+```
 mv file1 file2 (이름변경)
-
 mv file1 dir1 (file을 dir로 이동시킴)
-
 mv dir1 dir2 (dir1을 dir2 하위로 이동)
+```
 
 ### cp (copy)
 파일, 디렉토리를 복사함
-
+```
 cp file1 copy_file
-
 cp -r dir1 copy_dir (-r 옵션이 없으면 directory복사 안됨)
+```
 
 ### ln (link)
 링크파일을 생성함
-
+```
 ln -s source target (softlink, target은 source를 참조)
-
 ln source target (hardlink, 같은 inode번호를 가진다.)
+```
 
 ### cat
 파일의 내용을 출력함
-
+```
 cat FileName (fileName의 내용을 출력)
-
 cat FileName | more (내용이 많을경우 좀 더 편하게 볼 수 있음)
-
 cat source > target
 (출력의 방향을 파일로 변경함, source를 target으로 복사했다고 볼 수 있다. 조심해야 하는점은 만약 target으로 지정한 파일의 이름이 이미 존재하는 경우 그 파일에 source의 내용이 덮어씌워진다.)
-
 cat source >> target (source의 내용이 target파일에 append됨)
+```
 
 ### head
 파일의 맨 앞에서 몇 라인만을 출력함
-
+```
 head fileName
-
+```
 option으로 Line수를 지정할 수 있다.
 
 ### tail
 파일의 맨 아래부분 몇 라인만을 출력함
-
+```
 tail fileName
-
 tail -f fileName (파일의 마지막에 데이터가 추가되는 즉시 파일의 내용을 출력해줌, 개발 시 로그파일을 볼 때 많이 사용한다.
+```
 
 ### grep
 검색하고자 하는 문자를 옵션으로 주면 해당 문자열과 일치하는 파일을 찾아준다.
-
+```
 grep 문자열 파일이름 (ex. grep test *.log)
-
 grep -H 문자열 파일이름 (어떤 파일인지를 함께 출력해줌)
-
 grep -w 문자열 파일이름 (입력한 문자열과 정확히 일치하는 파일만을 출력)
+```
 
 ### less
 파일을 열고 내용을 볼 수 있는 TextViewer기능을 가진다.
-
 목적도 용도가 vi와는 다르기 때문에 별도로 알아야 할 필요가 있다.
-
 1GB정도 되는 로그파일을 vi로 열게되면 1GB가 모두 메모리에 올라가고, 네트워트 트래픽 또한 1GB만큼 발생하게 된다. 
-
 하지만 less명령어를 이용하여 열면 화면에 보이는만큼만 메모리에 올라간다. 즉, 용량이 큰 로그파일을 열때는 less명령어를 사용하는 것이 좋다.
 
 ## System 명령어
 
 ### tar
 압축관련 명령어
-
+```
 tar cvfz target.tar.gz source1 source2
-
 (source1, source2를 target으로 압축한다. 현재 디렉토리를 모두 압축하고 싶은경우에는 *를 사용한다.)
 
 cvfz중 c가 create를 의미한다는 정도만 알아두어도 된다.
@@ -142,10 +135,10 @@ tar xvfz source.tar.gz
 xvfz중 x는 extract를 의미하며 압축을 해제할 때 사용한다.
 
 압축과 압축해제는 옵션까지 한 묶음으로 숙지하는것이 좋다.
+```
 
 ### sudo
 관리자 권한을 사용할 수 있는 명령어
-
 root계정으로 접속하여 etc/sudoers(CentOS 7기준)파일에서 계정에 권한을 주어야 함.
 
 (Allow root to run any commands anywhere 아래에 등록하면됨)
@@ -162,12 +155,18 @@ chown user: group(or user) target
 
 검색조건이 매우 다양하다.
 
-find 경로 조건 target (ex. find ./ -name system.log)
+find 경로 조건 target 
+```
+$ find ./ -name system.log
+```
 
 ### which
 명령어의 위치를 조회하는 명령어
 
-which 찾을명령어 (ex. which ls) => /bin/ls)
+which 찾을명령어 
+```
+$ which ls => /bin/ls
+```
 
 ### top
 운영중인 서버의 CPU, Memory등의 상태를 확인하는 명령어
@@ -191,13 +190,15 @@ which 찾을명령어 (ex. which ls) => /bin/ls)
 
 ### ping
 네트워크 설정이 잘 되어 있는지 알아보는 경우에 많이 사용함
-
-ping domain(or IP) (ex. ping google.com)
+```
+$ ping domain(or IP) (ex. ping google.com)
+```
 
 ### nslookup !!
 domain을 이용하여 IP를 알아낼 때 사용하는 명령어
-
-nslookup domain (아이피주소 반환)
+```
+$ nslookup domain
+```
 
 ### ps (process status)
 현재 구동중인 모든 프로세스 정보를 조회할 때 사용하는 명령어
