@@ -15,20 +15,20 @@ image: assets/images/linux/linux.png
 
 [옵션]
 ```
-ls -l : 파일과 디렉토리에 대한 내용을 구체적으로 출력함
+$ ls -l : 파일과 디렉토리에 대한 내용을 구체적으로 출력함
 (권한 소유계정 그룹계정 파일크기[Byte] 생성날짜 파일이름)
 (== **ll 과 동일**)
-ls -a : 현재 디렉토리에서 숨김파일을 포함하여 출력함
-ls -li: ls-l상태에서 inode번호를 함께 출력함
-ll: ls-l과 동일함
-ls -alrt: 정렬까지해서 상세하게 출력
+$ ls -a : 현재 디렉토리에서 숨김파일을 포함하여 출력함
+$ ls -li: ls-l상태에서 inode번호를 함께 출력함
+$ ll: ls-l과 동일함
+$ ls -alrt: 정렬까지해서 상세하게 출력
 ```
 
 ### chmod (change Mode)
 권한 변경
 ```
-chomd 664 fileName (ex. chomd 664 note.txt)
-chmod u+x fileName (ex. chomd u+x note.txt)
+$ chomd 664 fileName (ex. chomd 664 note.txt)
+$ chmod u+x fileName (ex. chomd u+x note.txt)
 u(user), g(group), o(other)를 의미하며 +는 권한부여, -는 권한박탈
 (ex. u+x => 유저에게 execute권한을 부여)
 ```
@@ -36,80 +36,80 @@ u(user), g(group), o(other)를 의미하며 +는 권한부여, -는 권한박탈
 ### mkdir (make Directory)
 디렉토리를 생성함
 ```
-mkdir dirName
+$ mkdir dirName
 ```
 
 ### touch
 빈 파일 생성
 ```
-touch fileName
+$ touch fileName
 ```
 
 ### rm (remove)
 파일삭제 명령
 ```
-rm fileName
-rm -r dirName (-f 옵션이 없으면 directory는 지워지지 않음)
+$ rm fileName
+$ rm -r dirName (-f 옵션이 없으면 directory는 지워지지 않음)
 ```
 
 ### cd (change Directory)
 디렉토리를 이동함
 ```
-cd path
+$ cd path
 ```
 
 ### mv (move)
 파일, 디렉토리를 이동시키거나 이름을 변경시키는 명령어
 ```
-mv file1 file2 (이름변경)
-mv file1 dir1 (file을 dir로 이동시킴)
-mv dir1 dir2 (dir1을 dir2 하위로 이동)
+$ mv file1 file2 (이름변경)
+$ mv file1 dir1 (file을 dir로 이동시킴)
+$ mv dir1 dir2 (dir1을 dir2 하위로 이동)
 ```
 
 ### cp (copy)
 파일, 디렉토리를 복사함
 ```
-cp file1 copy_file
-cp -r dir1 copy_dir (-r 옵션이 없으면 directory복사 안됨)
+$ cp file1 copy_file
+$ cp -r dir1 copy_dir (-r 옵션이 없으면 directory복사 안됨)
 ```
 
 ### ln (link)
 링크파일을 생성함
 ```
-ln -s source target (softlink, target은 source를 참조)
-ln source target (hardlink, 같은 inode번호를 가진다.)
+$ ln -s source target (softlink, target은 source를 참조)
+$ ln source target (hardlink, 같은 inode번호를 가진다.)
 ```
 
 ### cat
 파일의 내용을 출력함
 ```
-cat FileName (fileName의 내용을 출력)
-cat FileName | more (내용이 많을경우 좀 더 편하게 볼 수 있음)
-cat source > target
+$ cat FileName (fileName의 내용을 출력)
+$ cat FileName | more (내용이 많을경우 좀 더 편하게 볼 수 있음)
+$ cat source > target
 (출력의 방향을 파일로 변경함, source를 target으로 복사했다고 볼 수 있다. 조심해야 하는점은 만약 target으로 지정한 파일의 이름이 이미 존재하는 경우 그 파일에 source의 내용이 덮어씌워진다.)
-cat source >> target (source의 내용이 target파일에 append됨)
+$ cat source >> target (source의 내용이 target파일에 append됨)
 ```
 
 ### head
 파일의 맨 앞에서 몇 라인만을 출력함
 ```
-head fileName
+$ head fileName
 ```
 option으로 Line수를 지정할 수 있다.
 
 ### tail
 파일의 맨 아래부분 몇 라인만을 출력함
 ```
-tail fileName
-tail -f fileName (파일의 마지막에 데이터가 추가되는 즉시 파일의 내용을 출력해줌, 개발 시 로그파일을 볼 때 많이 사용한다.
+$ tail fileName
+$ tail -f fileName (파일의 마지막에 데이터가 추가되는 즉시 파일의 내용을 출력해줌, 개발 시 로그파일을 볼 때 많이 사용한다.
 ```
 
 ### grep
 검색하고자 하는 문자를 옵션으로 주면 해당 문자열과 일치하는 파일을 찾아준다.
 ```
-grep 문자열 파일이름 (ex. grep test *.log)
-grep -H 문자열 파일이름 (어떤 파일인지를 함께 출력해줌)
-grep -w 문자열 파일이름 (입력한 문자열과 정확히 일치하는 파일만을 출력)
+$ grep 문자열 파일이름 (ex. grep test *.log)
+$ grep -H 문자열 파일이름 (어떤 파일인지를 함께 출력해줌)
+$ grep -w 문자열 파일이름 (입력한 문자열과 정확히 일치하는 파일만을 출력)
 ```
 
 ### less
@@ -223,6 +223,9 @@ $ kill -9 PID (-9옵션을 주면 강제종료 한다.)
 ![](https://velog.velcdn.com/images/clothes/post/dd907507-1312-4c28-99fd-283495dc8441/image.png)
 
 일반적으로 **df -h** 가 가장 많이 사용된다.
+```
+$ df -h
+```
 
 ### du
 df 명령어가 시스템 전체의 디스크 공간을 확인하는 명령어라면, du 명령은 특정 디렉토리를 기준으로 디스크 사용량을 확인할 수 있다.
@@ -230,6 +233,9 @@ df 명령어가 시스템 전체의 디스크 공간을 확인하는 명령어�
 ![](https://velog.velcdn.com/images/clothes/post/afcfaca7-73ad-470b-8bc0-7ac48c43e9c0/image.png)
 
 디렉토리 안에 있는 서브 디렉토리의 디스크 사용량도 표시함.
+```
+$ du -h
+```
 
 ### man
 명령어에 대한 메뉴얼을 제공
