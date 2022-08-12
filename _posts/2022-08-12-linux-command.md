@@ -16,9 +16,11 @@ image: assets/images/linux/linux.png
 #### 옵션
 ls -l : 파일과 디렉토리에 대한 내용을 구체적으로 출력함
 (권한 소유계정 그룹계정 파일크기[Byte] 생성날짜 파일이름)
+(== **ll 과 동일**)
 ls -a : 현재 디렉토리에서 숨김파일을 포함하여 출력함
 ls -li: ls-l상태에서 inode번호를 함께 출력함
 ll: ls-l과 동일함
+ls -alrt: 정렬까지해서 상세하게 출력
 
 ### chmod (change Mode)
 권한 변경
