@@ -49,7 +49,7 @@ tags: [JAVA]
 
 ## 코드 변경 사항
 
-```
+```java
 // 변경 전
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;

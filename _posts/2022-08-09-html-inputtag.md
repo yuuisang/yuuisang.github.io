@@ -86,7 +86,7 @@ src 특성에 지정한 이미지로 나타나는 시각적 제출 버튼. <img>
 
 **radio** 타입에서는 반드시 name 지정 필수!
 
-```
+```html
 <input type="radio" name="age" value="1">1
 <input type="radio" name="age" value="2">2
 <input type="radio" name="age" value="3">3

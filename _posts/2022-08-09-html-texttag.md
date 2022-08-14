@@ -25,7 +25,7 @@ tags: [HTML]
 
 헤드라인을 표시하는 태그이며, 숫자가 작을수록 크기가 크다.
 
-```
+```html
 <html>
     <head>
     </head>
@@ -44,7 +44,7 @@ tags: [HTML]
 
 수평선을 표시하는 태그로 주제 변경이나 내용 구분시에 사용하는 태그이다.
 
-```
+```html
 <html>
     <head>
     </head>
@@ -62,7 +62,7 @@ tags: [HTML]
 
 줄바꿈(==Enter) 을 적용해주는 태그이다. br 태그 하나당 1줄씩 줄바꿈 처리 된다.
 
-```
+```html
 <html>
     <head>
     </head>
@@ -78,7 +78,7 @@ tags: [HTML]
 
 해당 b ~~ /b 안의 텍스트에 Bold(강조) 를 적용한다.
 
-```
+```html
 <html>
     <head>
     </head>
@@ -96,7 +96,7 @@ tags: [HTML]
 
 해당 strong ~~ /strong 안의 텍스트를 굵게 만든다.
 
-```
+```html
 <html>
     <head>
     </head>
@@ -114,7 +114,7 @@ tags: [HTML]
 
 해당 u ~~ /u 안의 텍스트에 언더바( \_ ) 를 적용한다.
 
-```
+```html
 <html>
     <head>
     </head>
@@ -132,7 +132,7 @@ tags: [HTML]
 
 해당 em ~~ /em 안의 텍스트에 이탈릭체(폰트)를 적용한다.
 
-```
+```html
 <html>
     <head>
     </head>
@@ -150,7 +150,7 @@ tags: [HTML]
 
 해당 mark ~~ /mark 안의 텍스트에 형광펜 표시를 적용한다.
 
-```
+```html
 <html>
     <head>
     </head>
@@ -168,7 +168,7 @@ tags: [HTML]
 
 태그는 아니지만 HTML에서 띄어쓰기(==SpaceBar) 1칸을 의미한다.
 
-```
+```html
 <html>
     <head>
     </head>

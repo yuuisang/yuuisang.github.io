@@ -12,7 +12,7 @@ tags: [Javascript]
 
 ## JSON.stringify()
 
-```
+```javascript
 //data == 확인할 JSON 데이터
 console.log(JSON.stringify(data));
 alert(JSON.stringify(data));

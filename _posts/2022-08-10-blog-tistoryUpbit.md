@@ -19,7 +19,7 @@ tags: [Blog]
 
 ## HTML 코드
 
-```
+```html
 <div class="price-wrap">
   <div class="slide-wrap">
     <span class="item-BTC">
@@ -68,7 +68,7 @@ tags: [Blog]
 
 ## Javascript 코드
 
-```
+```javascript
 <script>
     var slideBar = document.querySelector(".slide-wrap");
     setInterval(function() {
@@ -97,7 +97,7 @@ tags: [Blog]
 
 ## CSS 코드
 
-```
+```css
 /* 업비트 API */
 @media (min-width: 992px) {
   .price-wrap {

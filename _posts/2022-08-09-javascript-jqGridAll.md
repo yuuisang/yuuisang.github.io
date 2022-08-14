@@ -24,7 +24,7 @@ CDN 방식으로 추가 시 다음과 같이 진행.
 
 js 파일로 직접 추가해서도 가능
 
-```
+```html
 // jqGrid 라이브러리 추가
 <link rel="stylesheet" type="text/css" media="screen" href="../resources/css/jquery-ui-1.10.4.custom.css" />
 <link rel="stylesheet" type="text/css" media="screen" href="../resources/css/ui.jqgrid.css" />
@@ -56,7 +56,7 @@ js 파일로 직접 추가해서도 가능
 **autowidth**: true,    // jQgrid width 자동100% 채워지게  
 **shrinkToFit**: false,  // width를 자동설정 해주는 기능
 
-```
+```javascript
 // FORM 태그로 감싼 모든 Submit 데이터
 var formData = $('#FORM1').serialize();
 
@@ -163,7 +163,7 @@ $("#grid").jqGrid({
 })
 ```
 
-```
+```html
 <!-- jqGrid 페이징 처리 예시 -->
 <div class="grid full-height full-height-strict">
     <table id="grid" class="full-size-jq-grid"></table>
@@ -176,7 +176,7 @@ $("#grid").jqGrid({
 
 이것 때문에 꽤나 애를 먹었는데 정확한 방법을 찾아냈다.
 
-```
+```javascript
 // 기존 그리드를 담은 엘리먼트(테이블) 제거
 $('#grid').jqGrid("clearGridData")
 $.jgrid.gridDestroy("grid")
@@ -203,5 +203,3 @@ jquery 버전 차이 때문에 발생하는 에러이다.
 \- 변경할 예시 : $.jgrid.gridDestroy("grid");
 
 **GridUnload** 도 에러가 발생하면 동일하게 처리 가능
-
-<script>if (window.location.pathname.split("/")[1] === "m" && navigator.userAgent.indexOf("Tistory") === -1 && navigator.userAgent.indexOf("Android") === -1) { window.location.href = window.location.origin + window.location.pathname.substr(2); }</script>

@@ -8,7 +8,7 @@ tags: [Javascript]
 
 ## 기본 세팅 옵션
 
-```
+```javascript
 $.datepicker.setDefaults({
         dateFormat: 'yy-mm-dd',	//날짜 포맷이다. 'yy-mm-dd' 를 보편적으로 사용
         prevText: '이전 달',	// 마우스 오버시 이전달 텍스트
@@ -31,13 +31,13 @@ $.datepicker.setDefaults({
 
 ## 오늘 날짜 구하기
 
-```
+```javascript
 var today = $.datepicker.formatDate('yy-mm-dd', new Date());
 ```
 
 ## 선택할 수 있는 날짜 제한
 
-```
+```javascript
 $("#datepicker1").datepicker({
 	maxDate : "+1m +1w",	//선택할 수 있는 최대 날짜  +1m +1w 은 1달 1주일 뒤 까지 선택가능  [+,-][숫자][y,m,w,d] 
 	minDate : "-1y"	//선택할 수 있는 최소 날짜 

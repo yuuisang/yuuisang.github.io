@@ -13,7 +13,7 @@ JS에서는 **Object.keys()**, **Object.values()** 라는 메서드를 제공해
   
 쉽게 설명하자면 특정 객체를 대상으로 key, value 값들만 뽑아서 **배열로 리턴**하는 함수다.
 
-```
+```javascript
 var obj = { a: 1, b: 2, c: 3 }; 
 var keys = Object.keys(obj); 
 var values = Object.values(obj);
@@ -29,7 +29,7 @@ console.log("결과2:"+values);
 
 해당 데이터에 명확한 인덱스(순서)를 알아야 한다면 조금 투박한 방법이지만
 
-```
+```javascript
 var obj = { a: 1, b: 2, c: 3 }; 
 var keys = Object.keys(obj); 
 var values = Object.values(obj);

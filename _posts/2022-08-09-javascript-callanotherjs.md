@@ -14,7 +14,7 @@ Node.js 처럼 Module.import/export 로 하는 방법말고 그냥 js에서 하�
 
 호출 대상 : erlangc.js
 
-```
+```javascript
 // 외부 js파일 호출(erlangc.js)
 document.write('<script src="/com/js/erlangc.js"></script>');
 
