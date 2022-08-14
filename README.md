@@ -2,7 +2,7 @@
 
 Ephesus Jekyll Theme - Simple and Minimal Jekyll Blog Theme
 
-Author [Hakan Torun](https://hakan.io).
+Author [EuiSang Yu](https://hakan.io).
 
 - **Demo:** https://pardin.us/ephesus/
 
