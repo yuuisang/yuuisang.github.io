@@ -1,11 +1,11 @@
 # Site settings
-site: Ephesus
-title: Ephesus - Minimalist Jekyll Theme
-keywords: ephesus, blog
+site: tech blog
+title: woody's tech blog
+keywords: woody, blog
 description: >-
-  Ephesus - Minimalist Jekyll Theme
-lang: en-US
-timezone:  Europe/Istanbul
+  woody's tech blog
+lang: ko-KR
+timezone:  Asia/Korea
 repo: https://github.com/yuuisang # site repo [optional]
 google_verify:      XXX # Put your Google Verification here
 google_analytics:   UA-XXXXXXXX-00 # Put your Google Analytics code
