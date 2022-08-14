@@ -79,7 +79,7 @@ Heroku는 일정 시간 동안 deploy한 앱에 접속 요청이 없을 경우, 
 
 ## bot.js
 
-```
+```javascript
 /*
     텔레그램 김프 봇
     EuiSang Yu
