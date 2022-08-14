@@ -169,7 +169,7 @@ setInterval(function() {
 
 ## upbit.js
 
-```
+```javascript
 const rp = require("request-promise")
 const sign = require("jsonwebtoken").sign
 const queryEncode = require("querystring").encode
@@ -467,7 +467,7 @@ module.exports = Upbit
 
 ## web.js
 
-```
+```javascript
 /*
     http end-point
 */
@@ -490,7 +490,7 @@ var server = app.listen(process.env.PORT, function () {
 
 ## index.js
 
-```
+```javascript
 require('./bot');
 require('./web');
 ```
