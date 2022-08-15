@@ -13,11 +13,11 @@ post_image: "/assets/images/blog-img1.jpg"
    ```bash
    $ git init
    ```
-깃 환경에서 사용자 이름을 **사용자명**으로 지정
+깃 환경에서 사용자 이름을 `사용자명`으로 지정
    ```bash
    $ git config --global user.name "사용자명"
    ```
-깃 환경에서 사용자 이메일을 **사용자이메일명**으로 지정
+깃 환경에서 사용자 이메일을 `사용자이메일명`으로 지정
    ```bash
    $ git config --global user.email "사용자이메일명"
    ```
