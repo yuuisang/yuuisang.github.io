@@ -9,7 +9,18 @@
         <li><a href="/contact" class="js-scroll-trigger">Contact</a></li>
     </ul>
 </nav>
+{% else %}
+<nav class="themeix-navbar">
+    <ul class="slimmenu main-menu">
+        <li><a href="{{site.url}}">Home</a></li>
+		<li><a href="/blog">Blog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/all-authors">Author</a></li>		
+        <li><a href="/contact" class="js-scroll-trigger">Contact</a></li>
+    </ul>
+</nav>
 {% endif %}
+
 {% if page.url == "/about" %}
 <!-- 블로그 -->
 <nav class="themeix-navbar">
