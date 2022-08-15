@@ -10,7 +10,7 @@ pagination:
   <div class="container">
     <div class="blog-wrapper">
       <div class="row"> 
-        {% for post in paginator.posts %}
+        {% for post in site.posts %}
           <div class="col-md-6">
             {% include post_content.html %}
           </div>
