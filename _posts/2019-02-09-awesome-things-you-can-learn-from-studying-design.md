@@ -3,7 +3,7 @@ layout: post
 title: "5 awesome things you can learn from studying design"
 date: 2019-02-09 20:37:13 +0600
 categories: [test]
-author: ecuelass_chapman
+author: euisang
 post_image: "/assets/images/blog-img5.jpg"
 ---
 

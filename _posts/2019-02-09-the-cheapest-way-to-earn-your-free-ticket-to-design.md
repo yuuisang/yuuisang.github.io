@@ -3,7 +3,7 @@ layout: post
 title: "The cheapest way to earn your free ticket to design"
 date: 2019-02-09 20:37:13 +0600
 categories: [test]
-author: themeix
+author: euisang
 post_image: "/assets/images/blog-img4.jpg"
 ---
 

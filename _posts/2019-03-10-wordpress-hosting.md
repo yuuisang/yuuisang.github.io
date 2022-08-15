@@ -3,7 +3,7 @@ layout: post
 title: "WordPress hostin manage your growth Nullam non nisi est"
 date: 2019-03-10 20:37:13 +0600
 categories: [business]
-author: robin
+author: euisang
 post_image: "/assets/images/blog-img2.jpg"
 ---
 <h3>vestibulum sed, luctus proin nibh nonummy integer facilisis </h3>

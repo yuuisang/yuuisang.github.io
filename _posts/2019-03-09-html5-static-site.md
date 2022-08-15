@@ -3,7 +3,7 @@ layout: post
 title: "Static Site Generator For All amet facilisis"
 date: 2019-03-09 20:37:13 +0600
 categories: [business]
-author: aaron_potts
+author: euisang
 post_image: "/assets/images/blog-img3.jpg"
 ---
 
