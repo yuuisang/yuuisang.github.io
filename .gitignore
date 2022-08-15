@@ -1,0 +1,7 @@
+package-lock.json
+.idea
+/dist
+node_modules
+.jekyll-cache
+_site
+Gemfile.lock
