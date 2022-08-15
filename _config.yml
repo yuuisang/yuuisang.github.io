@@ -69,9 +69,6 @@ autopages:
     title: " :coll" # :coll is replaced by the collection name
     permalink: "/:coll/"
 
- 
- 
-
 
 feed:
   collections:

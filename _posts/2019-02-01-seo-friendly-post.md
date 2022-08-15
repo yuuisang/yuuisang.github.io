@@ -3,7 +3,7 @@ layout: post
 title: "Seo Friendly Post Title venenatis a condimentum vitae"
 date: 2019-02-01 20:37:13 +0600
 categories: [business]
-author: EuiSang Yu
+author: EuiSangYu
 post_image: "/assets/images/blog-img7.jpg"
 ---
 
