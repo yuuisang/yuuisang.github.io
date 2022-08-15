@@ -6,10 +6,10 @@
 
 # Site settings
 
-title: "woody's blog"
+title: "우디의 테크블로그"
 email: "clothes.yoo@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
-  woody's blog.
+  우디의 테크블로그.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://yuuisang.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yuuisang
