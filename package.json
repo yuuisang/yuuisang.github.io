@@ -8,12 +8,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/themeix/gulp-quickstart-pack.git"
+		"url": "git://github.com/yuuisang"
 	},
 	"author": {
-		"name": "Themeix",
-		"email": "support@themeix.com",
-		"url": "https://themeix.com"
+		"name": "EuiSang Yu",
+		"email": "clothes.yoo@gmail.com",
+		"url": "https://yuuisang.github.io"
 	},
 	"keywords": [
 		"starter",
@@ -21,7 +21,7 @@
 		"themeix"
 	],
 	"bugs": {
-		"url": "https://github.com/themeix/gulp-quickstart-pack/issues"
+		"url": "https://github.com/yuuisang/yuuisang.github.io/issues"
 	},
 	"dependencies": {
 		"jquery": "^3.6.0",
