@@ -3,7 +3,7 @@ layout: post
 title: "Alternative Free Way To Be A Prodessional Designer"
 date: 2019-02-09 20:37:13 +0600
 categories: [business]
-author: euisang
+author: EuiSang Yu
 post_image: "/assets/images/blog-img6.jpg"
 ---
 
