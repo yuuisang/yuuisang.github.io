@@ -11,7 +11,7 @@ permalink: /all-authors
          <!--{% for author in site.authors %}-->
    		  {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
 
-               <div class="col-sm-6  col-md-4">
+               <div class="col-sm-1  col-md-1">
                <article class="author-post"  data-aos="fade-up">
                   <div class="author-img"><a href="{{ author.url  | relative_url}}"><img src="{{ author.image | relative_url}}" alt="{{ author.name }}"/></a></div>
                   <div class="author-content">
