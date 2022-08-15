@@ -9,17 +9,6 @@
         <li><a href="/contact" class="js-scroll-trigger">Contact</a></li>
     </ul>
 </nav>
-{% else if page.url == "/blog" %}
-<!-- 블로그 -->
-<nav class="themeix-navbar">
-    <ul class="slimmenu main-menu">
-        <li><a href="{{'/'| relateive_url}}">Home</a></li>
-        <li><a href="/category/jekyll">Category</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/all-authors">Author</a></li>		
-        <li><a href="/contact" class="js-scroll-trigger">Contact</a></li>
-    </ul>
-</nav>
 {% else if page.url == "/about" %}
 <!-- 블로그 -->
 <nav class="themeix-navbar">
@@ -48,6 +37,17 @@
         <li><a href="/blog">Blog</a></li>
         <li><a href="/about">About</a></li>	
         <li><a href="/all-authors">Author</a></li>	
+    </ul>
+</nav>
+{% else if page.url == "/blog" %}
+<!-- 블로그 -->
+<nav class="themeix-navbar">
+    <ul class="slimmenu main-menu">
+        <li><a href="{{'/'| relateive_url}}">Home</a></li>
+        <li><a href="/category/jekyll">Category</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/all-authors">Author</a></li>		
+        <li><a href="/contact" class="js-scroll-trigger">Contact</a></li>
     </ul>
 </nav>
 {% endif %}
