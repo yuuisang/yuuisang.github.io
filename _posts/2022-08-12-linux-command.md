@@ -4,7 +4,7 @@ title: "[Linux] Linux 명령어 모음"
 date: 2022-08-15 15:12:09 +0600
 categories: [Linux]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/linux/linux.png"
 ---
 
 ## 주로 사용하는 명령어
