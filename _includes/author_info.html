@@ -1,5 +1,5 @@
 {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
+{% if author %}
 <div class="blog-author-admin blog-spacing">
     <div class="author-avatar">
         <a href="{{ author.url }}"><img class="img-fluid" src="{{author.image}}" alt="{{author.name}}"/></a>
