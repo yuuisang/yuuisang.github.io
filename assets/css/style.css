@@ -2768,7 +2768,11 @@ input[type=submit]:active {
 }
 .entry-content img {
   margin-bottom: 30px;
-  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 1px 10px rgb(0 0 0 / 18%);
+
 }
 .entry-content .list-dot li:before {
   font-family: "Font Awesome 5 Free";
