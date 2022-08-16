@@ -4,7 +4,7 @@ title: "[Java] log4j 2 사용법"
 date: 2022-08-15 15:12:09 +0600
 categories: [JAVA]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/java/java.png"
 ---
 
 ## log4j2.xml 파일 코드 구성

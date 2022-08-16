@@ -4,7 +4,7 @@ title: "[HTML] 컨테이너 태그(div, span) - 시멘틱 구조"
 date: 2022-08-15 15:12:09 +0600
 categories: [HTML]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/html/html.png"
 ---
 
 콘텐츠나 레이아웃에 아무런 영향도 주지 않고, 여러 요소들을 하나로 묶어 관리하기 편하게하는 태그를 <code>컨테이너 태그</code>라고 한다. 콘텐츠 내용을 구분하거나, 특정 영역마다 공통적인 스타일(css)를 적용하고자 할 때 개발자는 컨테이너태그를 사용하는 것이 좋다.

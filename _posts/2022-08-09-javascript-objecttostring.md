@@ -4,7 +4,7 @@ title: "[Javscript] JSON 데이터 [object object] alert 나 console.log 함수�
 date: 2022-08-15 15:12:09 +0600
 categories: [Javascript]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/javascript/javascript.png"
 ---
 
 기본적으로 JS에서 JSON 데이터는 콘솔이나 Alert 로 출력시 <code>[Object object]</code> 로만 출력되고 내용은 보이지 않는다.

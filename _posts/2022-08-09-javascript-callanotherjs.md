@@ -4,7 +4,7 @@ title: "[Javscript] Javascript 파일에서 다른 JS 함수 호출 하는법"
 date: 2022-08-15 15:12:09 +0600
 categories: [Javascript]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/javascript/javascript.png"
 ---
 
 Node.js 처럼 Module.import/export 로 하는 방법말고 그냥 js에서 하는 방법을 찾고 있었는데

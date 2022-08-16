@@ -4,7 +4,7 @@ title: "[HTML] input 태그 총 정리"
 date: 2022-08-15 15:12:09 +0600
 categories: [HTML]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/html/html.png"
 ---
 
 <code>input</code> 태그는 사용자로부터 값을 입력받을 수 있는 대화형 컨트롤(=필드)를 나타낸다. 기본적으로 인라인 요소이고, 닫는 태그가 없는 단일태그이다. input 태그는 type 속성을 통해 입력받는 요소의 데이터 유형이 달라진다. 사용가능한 type 은 20여 가지이며, 기본값은 text 이다.

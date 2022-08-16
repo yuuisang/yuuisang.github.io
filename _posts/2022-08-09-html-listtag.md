@@ -4,7 +4,7 @@ title: "[HTML] ul, ol, li 태그(목록, 리스트 나열)"
 date: 2022-08-15 15:12:09 +0600
 categories: [HTML]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/html/html.png"
 ---
 
 HTML 에서는 크게 순서가 있는 리스트, 순서가 없는 리스트 2가지로 나누는데, 순서가 없는 리스트는 Unordered List 의 약어인 <code>ul 태그</code>를 사용하고 순서가 있는 리스트는 Ordered List 의 약어인 <code>ol 태그</code>를 사용한다.

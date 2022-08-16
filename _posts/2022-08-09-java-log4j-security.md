@@ -4,7 +4,7 @@ title: "[Java] log4j 보안 취약점 이슈 동작 원리 및 해결법"
 date: 2022-08-15 15:12:09 +0600
 categories: [JAVA]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/java/java.png"
 ---
 
 요며칠 log4j 보안 이슈때문에 아주 난리도 아니다..

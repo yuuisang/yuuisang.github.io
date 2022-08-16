@@ -4,7 +4,7 @@ title: "[HTML] 이미지(img) 태그"
 date: 2022-08-15 15:12:09 +0600
 categories: [HTML]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/html/html.png"
 ---
 
 **img** 태그는 이미지를 표시할 때 일반적으로 사용하는 태그이다.

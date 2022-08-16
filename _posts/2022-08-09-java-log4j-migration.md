@@ -4,7 +4,7 @@ title: "[Java] log4j Migration - Maven,Gradle 없이 순수 jar 파일로 마이
 date: 2022-08-15 15:12:09 +0600
 categories: [JAVA]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/java/java.png"
 ---
 
 우선 여러가지 방법이 있지만 회사에서 내가 적용에 성공한 방법을 토대로 작성
