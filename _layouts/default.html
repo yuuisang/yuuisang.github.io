@@ -50,17 +50,45 @@
         });
     </script>
     <!-- } 쿠팡파트너스 고유 식별값 세팅 -->
-</head><body>
-      <main class="main-area">
 
-       {% include header.html%}
-       
-        {{content}}
-        
-        {% include footer.html %}
-      </main>
-    <!-- gulp:js -->
-    <script src="{{'/assets/js/build.min.js' | relative_url}}"></script>
-	<!-- endgulp -->
-   </body>
+    <!-- Google Adsense Set -->
+    <script>
+        window.$ = window.jQuery = window.tjQuery;
+        var pageLoaded = false;
+        function adPush() {
+            //try{(adsbygoogle = window.adsbygoogle || []).push({});}catch(e){}
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+        function adPushDelay() {
+            (new Promise(function(resolve, reject) {
+                var timer = 0;
+                timer = setInterval(function() {
+                    if(pageLoaded) {
+                        clearInterval(timer);
+                        resolve();
+                    }
+                }, 200);
+            })).then(function(){
+                setTimeout(function() {
+                    //try{(adsbygoogle = window.adsbygoogle || []).push({});}catch(e){}
+                    (adsbygoogle = window.adsbygoogle || []).push({});
+                }, 500);
+            });
+        }
+    </script>
+    
+</head>
+<body>
+    <main class="main-area">
+
+    {% include header.html%}
+    
+    {{content}}
+    
+    {% include footer.html %}
+    </main>
+<!-- gulp:js -->
+<script src="{{'/assets/js/build.min.js' | relative_url}}"></script>
+<!-- endgulp -->
+</body>
 </html>
