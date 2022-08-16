@@ -6,7 +6,8 @@
     <div class="post-content">
         <div class="post-date">{{post.date | date:"%d"}}<span>{{post.date | date:"%b"}}</span></div>
         
-		{% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+		{% assign author = site.authors | where: 'short_name', page.author | first %}
+		{% if author %}
 		<div class="post-author">
             <div class="author-img"><img src="{{author.image}}" alt="{{author.name}}"/></div>
             <div class="author-content">
@@ -17,6 +18,7 @@
             </ul>
             </div>
         </div>
+        {% endif %}  
 
         <div class="post-desc">
             <h5 class="heading-5"><a href="{{post.url}}">{{post.title}}</a></h5>
