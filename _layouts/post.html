@@ -12,6 +12,39 @@ layout: default
                 <img src="{{page.post_image}}" alt="{{page.title}}" />
             </div>
             {% endif %}
+            <br>
+            <!-- 상단 광고 2개 삽입 start -->
+            <div class="top-ads">
+                <div id="ad-top-left" class="revenue_unit_item adsense">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <ins class="adsbygoogle top-left"
+                                data-ad-client="ca-pub-2114737769603426"
+                                data-ad-slot="8667772012"
+                                data-ad-format="rectangle"
+                                data-full-width-responsive="true"
+                                style="width:336px;"></ins>
+                    <script>
+                        if($(window).width() < 710) {
+                            $('#ad-top-left').remove();
+                        } else {
+                            adPush();
+                        }
+                    </script>
+                </div>
+                <div id="ad-top-right" class="revenue_unit_item adsense">
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                    <ins class="adsbygoogle top-right"
+                                data-ad-client="ca-pub-2114737769603426"
+                                data-ad-slot="1755579345"
+                                data-ad-format="rectangle"
+                                data-full-width-responsive="true"
+                                style="width:336px;"></ins>
+                    <script>
+                        adPush();
+                    </script>
+                </div>
+            </div>
+            <!-- 상단 광고 2개 삽입 end -->
             <div class="entry-content blog-spacing">
              {{page.content}}
             </div>
