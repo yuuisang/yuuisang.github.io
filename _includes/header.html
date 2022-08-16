@@ -39,9 +39,9 @@
 
                 <ul class="page-post-date list-inline">
                     {% assign author =  page.author %}
-		{% if author %}
-					<li class="list-inline-item"><img src="{{site.baseurl}}/assets/images/page-avatar-icon.png" alt="icon"/><a href="/authors/{{page.author}}">{{page.author}}</a></li>
-			{% endif %}
+		        {% if author %}
+					<li class="list-inline-item"><img src="{{author.image}}" alt="icon"/><a href="/authors/{{page.author}}">{{page.author}}</a></li>
+			    {% endif %}
                     <li class="list-inline-item"><img src="{{site.baseurl}}/assets/images/page-clock-icon.png" alt="icon"/>{{page.date | date_to_long_string}}</li>
                 </ul>
             </div>
