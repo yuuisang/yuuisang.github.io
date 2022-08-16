@@ -4,7 +4,7 @@ title: "[Telegram] 텔레그램 코인 알림봇 개발 (Node.js 를 이용한 R
 date: 2022-08-15 15:12:09 +0600
 categories: [Telegram]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/telegram/telegram.png"
 ---
 
 나는 평소 코인을 거래할 때 [김프가](https://kimpga.com/) 라는 사이트를 자주 이용하는데, 매번 띄워놓고 확인하기 너무 번거롭다고 느껴서 차라리 내가 원하는 특정 상황이 되었을때 **텔레그램 봇이 실시간 가상화폐(코인) 가격을 채팅으로 알려주는 프로그램**을 직접 개발해봐야겠다고 생각했다.
