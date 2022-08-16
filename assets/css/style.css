@@ -2767,11 +2767,14 @@ input[type=submit]:active {
   line-height: 28.8px;
 }
 .entry-content img {
-  margin-bottom: 30px;
   max-width: 100%;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 1px 10px rgb(0 0 0 / 18%);
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 .entry-content .list-dot li:before {
