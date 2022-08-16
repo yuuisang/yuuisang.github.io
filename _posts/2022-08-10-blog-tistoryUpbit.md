@@ -4,7 +4,7 @@ title: "[Blog] 티스토리 업비트 실시간 가격 띄우기"
 date: 2022-08-15 15:12:09 +0600
 categories: [Blog]
 author: EuiSangYu
-post_image: "/assets/images/blog-img1.jpg"
+post_image: "/assets/images/blog/upbit.png"
 ---
 
 코인 매매와 공부하는 걸 좋아하다보니 내 블로그에도 업비트의 실시간 가격이 떴으면 좋겠다는 생각이 들었다.
