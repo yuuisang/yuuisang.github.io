@@ -45,6 +45,8 @@ layout: default
                 </div>
             </div>
             <!-- 상단 광고 2개 삽입 end -->
+            <br>
+
             <div class="entry-content blog-spacing">
              {{page.content}}
             </div>
@@ -56,6 +58,27 @@ layout: default
             {% include author_info.html %}
             {% include post_pagination.html %}
             {% include latest_posts.html %}
+
+            <!-- 하단 멀티플렉스 광고 -->
+            <div class="main-ads">
+                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <ins class="adsbygoogle"
+                        style="display:block"
+                        data-ad-format="autorelaxed"
+                        data-ad-client="ca-pub-2114737769603426"
+                        data-ad-slot="1755579345"></ins>
+                <script>
+                    if(!checkMainPage()) {
+                        var mainAds = $('.main-ads');
+                        if(mainAds.prev().prop('tagName') == 'H2') {
+                            mainAds.prev().remove();
+                        }
+                        mainAds.remove();
+                    } else {
+                        adPush();
+                    }
+                </script>
+            </div>
 
             <!-- 글 본문 밑 쿠팡 파트너스 -->
             <script>
