@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Java] log4j Migration - Maven,Gradle 없이 순수 jar 파일로 마이그레이션하는 방법"
-date: 2022-08-15 15:12:09 +0600
+date: 2022-08-09 15:12:09 +0600
 categories: [JAVA]
 author: EuiSangYu
 post_image: "/assets/images/java/java.png"

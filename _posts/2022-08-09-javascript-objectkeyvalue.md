@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Javscript] Object.keys - 객체의 Key 값 가져오기, Object.value - value값 가져오기"
-date: 2022-08-15 15:12:09 +0600
+date: 2022-08-09 15:12:09 +0600
 categories: [Javascript]
 author: EuiSangYu
 post_image: "/assets/images/javascript/javascript.png"

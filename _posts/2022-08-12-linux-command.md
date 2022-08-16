@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Linux] Linux 명령어 모음"
-date: 2022-08-15 15:12:09 +0600
+date: 2022-08-12 15:12:09 +0600
 categories: [Linux]
 author: EuiSangYu
 post_image: "/assets/images/linux/linux.png"

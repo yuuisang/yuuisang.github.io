@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Git] git 명령어 모음"
-date: 2022-08-15 15:12:09 +0600
+date: 2022-08-11 15:12:09 +0600
 categories: [Git]
 author: EuiSangYu
 post_image: "/assets/images/git/git.png"

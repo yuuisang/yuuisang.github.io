@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Javscript] JSON 데이터 [object object] alert 나 console.log 함수로 출력하는 방법"
-date: 2022-08-15 15:12:09 +0600
+date: 2022-08-09 15:12:09 +0600
 categories: [Javascript]
 author: EuiSangYu
 post_image: "/assets/images/javascript/javascript.png"

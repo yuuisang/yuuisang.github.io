@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Javscript] jqGrid 사용법 총 정리"
-date: 2022-08-15 15:12:09 +0600
+date: 2022-08-09 15:12:09 +0600
 categories: [Javascript]
 author: EuiSangYu
 post_image: "/assets/images/javascript/javascript.png"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Blog] 티스토리 업비트 실시간 가격 띄우기"
-date: 2022-08-15 15:12:09 +0600
+date: 2022-08-10 15:12:09 +0600
 categories: [Blog]
 author: EuiSangYu
 post_image: "/assets/images/blog/upbit.png"

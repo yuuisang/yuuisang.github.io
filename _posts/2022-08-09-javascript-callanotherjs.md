@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Javscript] Javascript 파일에서 다른 JS 함수 호출 하는법"
-date: 2022-08-15 15:12:09 +0600
+date: 2022-08-09 15:12:09 +0600
 categories: [Javascript]
 author: EuiSangYu
 post_image: "/assets/images/javascript/javascript.png"

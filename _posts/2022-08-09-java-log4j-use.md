@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Java] log4j 2 사용법"
-date: 2022-08-15 15:12:09 +0600
+date: 2022-08-09 15:12:09 +0600
 categories: [JAVA]
 author: EuiSangYu
 post_image: "/assets/images/java/java.png"
