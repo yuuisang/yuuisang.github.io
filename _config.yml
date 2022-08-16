@@ -21,6 +21,13 @@ cover_image: ""
 
 permalink: "/:title"
 
+# Google Analytics
+analytics:
+  provider               : "google-gtag" 
+                          # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id          : "G-KLJ2RT1S3Q"
+    anonymize_ip         : # true, false (default)
 
 # Build settings
 markdown: kramdown
