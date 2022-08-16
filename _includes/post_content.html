@@ -6,7 +6,7 @@
     <div class="post-content">
         <div class="post-date">{{post.date | date:"%d"}}<span>{{post.date | date:"%b"}}</span></div>
         
-		{% assign author = site.authors | where: 'short_name', post.author | first %}
+		{% assign filtered_posts = site.posts | where: 'author', page.short_name %}
 		<div class="post-author">
             <div class="author-img"><img src="{{author.image}}" alt="{{author.name}}"/></div>
             <div class="author-content">
