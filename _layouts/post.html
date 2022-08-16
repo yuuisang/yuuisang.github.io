@@ -16,7 +16,6 @@ layout: default
              {{page.content}}
             </div>
             <div class="blog-share-tags blog-spacing">
-             
                 <div class="blog-author-share">
                   {% include social_share.html %}
                 </div>
@@ -24,6 +23,21 @@ layout: default
             {% include author_info.html %}
             {% include post_pagination.html %}
             {% include latest_posts.html %}
+
+            <!-- 글 본문 밑 쿠팡 파트너스 -->
+            <script>
+                try {
+                    setTimeout(function() {
+                        var iframeNode = document.querySelector('iframe[id^="591916"]');
+                        document.querySelector('#content_coopang').appendChild(iframeNode);
+                    }, 1000);
+                } catch (e) {
+                    console.error(e);
+                }
+            </script>
+            <div id="content_coopang"></div>
+            <!-- / 글 본문 밑 쿠팡 파트너스 -->
+
             <div class="comment-wrapper blog-spacing">
               {% include disqus_comments.html %}
             </div>
