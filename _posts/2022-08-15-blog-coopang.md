@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[Blog] 스토리에 쿠팡파트너스 배너 넣기"
-date: 2022-08-16 15:12:09 +0600
+date: 2022-08-15 15:12:09 +0600
 categories: [Blog]
 author: EuiSangYu
 post_image: "/assets/images/blog/coopang.png"
