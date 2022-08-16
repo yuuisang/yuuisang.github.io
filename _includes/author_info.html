@@ -1,4 +1,4 @@
-{% assign author = site.authors | where: 'short_name', page.author | first %}
+{% assign author = site.authors | where: 'author', page.short_name %}
 <div class="blog-author-admin blog-spacing">
     <div class="author-avatar">
         <a href="{{ author.url }}"><img class="img-fluid" src="{{author.image}}" alt="{{author.name}}"/></a>
