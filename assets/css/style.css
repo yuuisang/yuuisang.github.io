@@ -651,7 +651,8 @@ th {
   }
 }
 body {
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: 'Ownglyph', sans-serif;
   font-size: 14px;
   line-height: 1.8;
   font-weight: 400;
