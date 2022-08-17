@@ -19,7 +19,7 @@ post_image: "/assets/images/linux/linux.png"
 ```bash
 $ ls -l : 파일과 디렉토리에 대한 내용을 구체적으로 출력함
 (권한 소유계정 그룹계정 파일크기[Byte] 생성날짜 파일이름)
-(== **ll 과 동일**)
+(== `ll 과 동일`)
 $ ls -a : 현재 디렉토리에서 숨김파일을 포함하여 출력함
 $ ls -li: ls-l상태에서 inode번호를 함께 출력함
 $ ll: ls-l과 동일함
@@ -224,7 +224,7 @@ $ kill -9 PID (-9옵션을 주면 강제종료 한다.)
 #### 옵션들
 ![](https://velog.velcdn.com/images/clothes/post/dd907507-1312-4c28-99fd-283495dc8441/image.png)
 
-일반적으로 **df -h** 가 가장 많이 사용된다.
+일반적으로 `df -h` 가 가장 많이 사용된다.
 ```bash
 $ df -h
 ```
@@ -268,7 +268,7 @@ $ deluser 사용자ID
 ```
 
 ## 권한
-**ls -l**을 이용하여 디렉토리 정보를 출력하면 맨 앞쪽에 **drwxrwxrwx**처럼 권한에 대한 내용이 출력된다.<br>
+`ls -l`을 이용하여 디렉토리 정보를 출력하면 맨 앞쪽에 `drwxrwxrwx`처럼 권한에 대한 내용이 출력된다.<br>
 가장 먼저 나오는 알파벳은 파일의 유형을 의미하며 d, l, -로 나뉘고 각각 directory, link, file을 의미한다.<br>
 권한정보인 rwx는 각각 read write execute를 의미한다.<br>
 예를들어 --x권한을 가지고 있다면 읽거나 쓰지는 못하고 실행만 할 수 있다.<br>

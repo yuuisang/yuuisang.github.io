@@ -13,12 +13,12 @@ post_image: "/assets/images/java/java.png"
 
 우리 부서는 솔루션 설치 시 고객사의 외부망 관련 보안 문제 때문에 Maven이나 Gradle 같은 외부 빌드를 이용하지 않고, jar 파일로 로컬에서 직접 관리하는 방식으로 업무를 진행한다.
 
-사실 기존에 프로젝트들이 **자바7** 버전 베이스라 Log4j **1.2.16** 버전을 사용하고 있었기에 이번 보안 이슈 취약점 대상에선 제외되었지만, 이번 기회에 최신버전으로 마이그레이션 하자는 의견이 나와 진행하게 되었다.
+사실 기존에 프로젝트들이 `자바7` 버전 베이스라 Log4j `1.2.16` 버전을 사용하고 있었기에 이번 보안 이슈 취약점 대상에선 제외되었지만, 이번 기회에 최신버전으로 마이그레이션 하자는 의견이 나와 진행하게 되었다.
 
-내가 선택한 마이그레이션 버전은 **2.12.3** 버전이다.
+내가 선택한 마이그레이션 버전은 `2.12.3` 버전이다.
 
 -   Java 7을 사용하는 몇몇 프로젝트가 있기 때문에 Java 7을 지원하는 보안 취약점 문제가 해결 된 가장 최신 버전이기 때문
--   **[2.12.3 버전 jar 다운로드](https://logging.apache.org/log4j/2.x/download.html)**
+-   `[2.12.3 버전 jar 다운로드](https://logging.apache.org/log4j/2.x/download.html)`
 
 ![](https://velog.velcdn.com/images/clothes/post/507e9c58-0f59-450c-a175-228894f74810/image.png)
 
@@ -39,12 +39,12 @@ post_image: "/assets/images/java/java.png"
 ## log4j2.xml 예시
 
 
-코드 구성 방법은 **[https://coding-plant.tistory.com/78](https://coding-plant.tistory.com/78 "링크")** 참조
+코드 구성 방법은 `[https://coding-plant.tistory.com/78](https://coding-plant.tistory.com/78 "링크")` 참조
 
 
 ## 새로운 버전의 jar 파일들 추가
 
-> 2022.01.17 기준 추가 취약점 발견으로 인해 **2.12.4** 버전으로 첨부 파일 수정
+> 2022.01.17 기준 추가 취약점 발견으로 인해 `2.12.4` 버전으로 첨부 파일 수정
 
 ![](https://velog.velcdn.com/images/clothes/post/fa57e8ba-b8ac-4a21-87c0-c35d4bbcfd7e/image.png)
 
@@ -81,4 +81,4 @@ JAVA8 프로젝트에 Log4j 1.2.16 으로 세팅되어있는 프로젝트에 진
 
 사실 차이점까지는 아니고 혹시나 2.12.3 과 동일한 방법으로 진행했는데 에러가 난다면
 
-해당 이클립스의 **Preferences - Java - Installed JREs** 설정에서 제대로 버전이 일치하는지 확인해보면 좋을 것 같다.
+해당 이클립스의 `Preferences - Java - Installed JREs` 설정에서 제대로 버전이 일치하는지 확인해보면 좋을 것 같다.

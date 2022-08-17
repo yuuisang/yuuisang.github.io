@@ -9,7 +9,7 @@ post_image: "/assets/images/infra/http.png"
 
 ## HTTP란
 
-HTTP(Hypertext Transfer Protocol)하이퍼텍스트 전송 규약. 웹 브라우저(web browser) 같은 응용프로그램을 통해 웹 클라이언트(사용자)와 웹 서버(서비스 제공자) 사이 데이터를 전송하는 프로토콜이다. 인터넷 통신을 위해 사용 되는 Protocol이며, HTML뿐만 아니라, 각종 이미지, 동영상, 음성 데이터 전송이 가능하다. 웹 서버와 사용자 컴퓨터에 설치된 웹 브라우저 사이에 문서를 전송하기 위한 **통신 규약**이다.
+HTTP(Hypertext Transfer Protocol)하이퍼텍스트 전송 규약. 웹 브라우저(web browser) 같은 응용프로그램을 통해 웹 클라이언트(사용자)와 웹 서버(서비스 제공자) 사이 데이터를 전송하는 프로토콜이다. 인터넷 통신을 위해 사용 되는 Protocol이며, HTML뿐만 아니라, 각종 이미지, 동영상, 음성 데이터 전송이 가능하다. 웹 서버와 사용자 컴퓨터에 설치된 웹 브라우저 사이에 문서를 전송하기 위한 `통신 규약`이다.
 
 ## HTTP의 특징
 
@@ -17,17 +17,17 @@ HTTP(Hypertext Transfer Protocol)하이퍼텍스트 전송 규약. 웹 브라우
 -   TCP/IP를 이용하는 응용 프로토콜(application protocol)이다.
 -   연결 상태를 유지하지 않는 비연결성 프로토콜이다.
 -   요청/응답(Request/Response) 방식으로 동작한다.
--   HTTP는 기본 포트인 **80번 포트**에서 서비스 대기한다.
+-   HTTP는 기본 포트인 `80번 포트`에서 서비스 대기한다.
 
-연결 상태를 유지하지 않기 때문에 정보를 저장하기 위한 수단으로 **쿠키(Cookie)**와 **세션(Session)**이 등장했다.
+연결 상태를 유지하지 않기 때문에 정보를 저장하기 위한 수단으로 `쿠키(Cookie)`와 `세션(Session)`이 등장했다.
 
 ## HTTP의 통신 과정
 
 ![](https://velog.velcdn.com/images/clothes/post/3407ca34-53d2-4ae3-9396-804de492cf7b/image.png)
 
 
-클라이언트(사용자)가 서버에 **HTTP Request (요청) 전송**  
-서버가 사용자의 요청을 받고 **HTTP Response (응답) 회신**
+클라이언트(사용자)가 서버에 `HTTP Request (요청) 전송`  
+서버가 사용자의 요청을 받고 `HTTP Response (응답) 회신`
 
 클라이언트의 요청이 없으면 응답하지 않는게 기본 상태이다.
 
@@ -35,11 +35,11 @@ HTTP(Hypertext Transfer Protocol)하이퍼텍스트 전송 규약. 웹 브라우
 
 상태 코드는  IETF (Internet Engineering Task Force)에서 정의한 인터넷 표준에 따라 개발되며, 총 5가지 클래스로 분류된다.
 
-1.  **1xx**: Informational - 요청 정보 처리 중
-2.  **2xx**: Success - 요청을 정상적으로 처리함
-3.  **3xx**: Redirection - 요청을 완료하기 위해 추가 동작 필요
-4.  **4xx**: Client Error - 서버가 요청을 이해하지 못함
-5.  **5xx**: Server Error - 서버가 요청 처리 실패함
+1.  `1xx`: Informational - 요청 정보 처리 중
+2.  `2xx`: Success - 요청을 정상적으로 처리함
+3.  `3xx`: Redirection - 요청을 완료하기 위해 추가 동작 필요
+4.  `4xx`: Client Error - 서버가 요청을 이해하지 못함
+5.  `5xx`: Server Error - 서버가 요청 처리 실패함
 
 ### 1xx: Informational 정보
 

@@ -93,7 +93,7 @@ Properties는 해당 Configuration 영역 내에서 사용할 프로퍼티를 �
 
 날짜나 시간(12,24) 포맷, 색깔, 출력 요소 등을 결정할 수 있는 요소이다.
 
-구체적인 사용 방법은 **[링크](https://logging.apache.org/log4j/2.x/manual/layouts.html)** 
+구체적인 사용 방법은 `[링크](https://logging.apache.org/log4j/2.x/manual/layouts.html)` 
 
 ## Appenders
 
@@ -101,7 +101,7 @@ Appender는 log 메세지를 특정 위치에 전달해주는 역할이다.
 
 Appender는 layout을 통해 로그를 formatting 하고, 어떤 방식으로 로그를 제공할지 결정한다.
 
-Appender에는 여러 종류가 있다. 소개되지 않은 나머지는 **[링크](https://logging.apache.org/log4j/2.x/manual/appenders.html)** 
+Appender에는 여러 종류가 있다. 소개되지 않은 나머지는 `[링크](https://logging.apache.org/log4j/2.x/manual/appenders.html)` 
 
 -   ConsoleAppender
 -   RollingFileAppender
@@ -109,7 +109,7 @@ Appender에는 여러 종류가 있다. 소개되지 않은 나머지는 **[링�
 -   JDBCAppender
 -   등등...
 
-여기서 가장 핵심이라고 생각하는 **RollingFileAppender** 만 따로 설명하자면, 
+여기서 가장 핵심이라고 생각하는 `RollingFileAppender` 만 따로 설명하자면, 
 
 ```
 <RollingFile name="Rolling-${sd:type}" fileName="${filename}" 
@@ -126,7 +126,7 @@ Appender에는 여러 종류가 있다. 소개되지 않은 나머지는 **[링�
 </RollingFile>
 ```
 
-로그 파일에 문제가 생기면 로그가 전부 유실될 수 있기 때문에 **RollingFileAppender**에서 설정을 해줌으로서 미연에 방지할 수 있다.
+로그 파일에 문제가 생기면 로그가 전부 유실될 수 있기 때문에 `RollingFileAppender`에서 설정을 해줌으로서 미연에 방지할 수 있다.
 
 RollingFileAppender 는 파일에 로그를 기록하고, 특정 기준에 따라 압축하여 저장하는 방식의 Appender 이다.
 
@@ -140,10 +140,10 @@ File Rolling Up 기준이고, 하나의 RollingFileAppender에는 여러 Policy�
 
 예를 들어 TimeBasedTriggeringPolicy 를 삽입한다고 치면 설정한 interval=? 에 따라 주기가 달라진다.
 
--   **OnStartupTriggeringPolicy** : jvm start시 trigger
--   **TimeBasedTriggeringPolicy** : time에 따른 trigger
--   **SizeBasedTriggeringPolicy** : file size에 따른 trigger
--   **CronTriggeringPolicy** : Cron Expression(시간에 관한 표현)에 따른 trigger
+-   `OnStartupTriggeringPolicy` : jvm start시 trigger
+-   `TimeBasedTriggeringPolicy` : time에 따른 trigger
+-   `SizeBasedTriggeringPolicy` : file size에 따른 trigger
+-   `CronTriggeringPolicy` : Cron Expression(시간에 관한 표현)에 따른 trigger
 
 #### DefaultRolloverStrategy
 
@@ -155,13 +155,13 @@ datetime은 현재 시간으로 대체되고, 각각 rollover 이후에는 정�
 
 ![](https://velog.velcdn.com/images/clothes/post/d9f9f71b-00d1-44e8-ad8a-040232299a82/image.png)
 
-해당 **Strategy**에 부여할 수 있는 속성들
+해당 `Strategy`에 부여할 수 있는 속성들
 
--   **fileIndex** : max로 설정 시 높은 index가 더 최신 파일이 됩니다. min으로 설정 시 작은 index가 최신 파일이 된다. 기존의 파일들을 rename하는 방식으로 동작.
--   **compressionLevel** : 0~9까지 정수값. 0은 압축하지 않고, 1은 최고 속도, 9는 최고 압축. ZIP파일만 가능함.
--   **tempCompressedFilePattern** : 압축하는 동안의 파일 이름 패턴.
--   **min** : counter 최소값. 기본값은 1
--   **max** : counter 최대값. 만약 최대값에 도달하면 오래된 파일을 삭제. 기본값은 7
+-   `fileIndex` : max로 설정 시 높은 index가 더 최신 파일이 됩니다. min으로 설정 시 작은 index가 최신 파일이 된다. 기존의 파일들을 rename하는 방식으로 동작.
+-   `compressionLevel` : 0~9까지 정수값. 0은 압축하지 않고, 1은 최고 속도, 9는 최고 압축. ZIP파일만 가능함.
+-   `tempCompressedFilePattern` : 압축하는 동안의 파일 이름 패턴.
+-   `min` : counter 최소값. 기본값은 1
+-   `max` : counter 최대값. 만약 최대값에 도달하면 오래된 파일을 삭제. 기본값은 7
 
 ## Logger
 

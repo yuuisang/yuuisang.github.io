@@ -25,7 +25,7 @@ post_image: "/assets/images/html/html.png"
 
 ### radio
 
-**같은 name 값**을 가진 여러개의 선택중에서 하나의 값을 선택하게 하는 라디오 버튼
+`같은 name 값`을 가진 여러개의 선택중에서 하나의 값을 선택하게 하는 라디오 버튼
 
 ![](https://velog.velcdn.com/images/clothes/post/7df3f73a-3ace-411e-b2f4-090561677b42/image.png)
 
@@ -85,7 +85,7 @@ src 특성에 지정한 이미지로 나타나는 시각적 제출 버튼. <img>
 
 ## name 지정
 
-**radio** 타입에서는 반드시 name 지정 필수!
+`radio` 타입에서는 반드시 name 지정 필수!
 
 ```html
 <input type="radio" name="age" value="1">1
@@ -96,7 +96,7 @@ src 특성에 지정한 이미지로 나타나는 시각적 제출 버튼. <img>
 
 ## 다양한 전역 속성
 
-**input 요소**는 전역 속성(Global Attributes)과 다음 특성을 포함한다.
+`input 요소`는 전역 속성(Global Attributes)과 다음 특성을 포함한다.
 
 | 속성 | 유형 | 설명 |
 | --- | --- | --- |

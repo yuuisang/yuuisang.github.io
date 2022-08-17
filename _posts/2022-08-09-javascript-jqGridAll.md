@@ -9,7 +9,7 @@ post_image: "/assets/images/javascript/javascript.png"
 
 ## 소개
 
-**jqGrid**는 <code>jQuery라이브러리를 이용한 Grid Plugin</code> 이다. 웹에서 테이블 형식의 데이터를 표시하고 조작을 위한 Ajax기반 자바스크립트 컨트롤러 기능을 한다.
+`jqGrid`는 <code>jQuery라이브러리를 이용한 Grid Plugin</code> 이다. 웹에서 테이블 형식의 데이터를 표시하고 조작을 위한 Ajax기반 자바스크립트 컨트롤러 기능을 한다.
 
   
 jqGrid는  Ajax가 내장되어 있어서 조금만 이해하고 공부한다면 쉽게 데이터를 화면에 뿌려줄 수 있지만,   
@@ -38,24 +38,24 @@ js 파일로 직접 추가해서도 가능
 
 ## 수많은 옵션들
 
-**url** : 데이터 API 요청을 보낼 주소를 입력  
-**mtype** : API 요청 방식을 설정(get || post)  
-**datatype** : 가지고 오는 데이터의 타입을 설정한다. 보통 xml, json,local 이렇게 세 가지를 자주 사용.  
-**colNames** : 그리드 각각의 컬럼에 출력되는 이름이고, 배열로 설정한다.  
-**colModel** : 각 컬럼에 대한 상세 정보이다. 서버로부터 받아온 데이터를 매핑해서 출력한다.   
+`url` : 데이터 API 요청을 보낼 주소를 입력  
+`mtype` : API 요청 방식을 설정(get || post)  
+`datatype` : 가지고 오는 데이터의 타입을 설정한다. 보통 xml, json,local 이렇게 세 가지를 자주 사용.  
+`colNames` : 그리드 각각의 컬럼에 출력되는 이름이고, 배열로 설정한다.  
+`colModel` : 각 컬럼에 대한 상세 정보이다. 서버로부터 받아온 데이터를 매핑해서 출력한다.   
 \- colModel 하위에 label이 들어가는데, colNames를 사용하지 않고 label 내부에 설정해도 동일하게 사용이 가능하다.(하단 코드 예시 참고)  
-**jsonReader/xmlReader** : 데이터 타입이 json/xml일 경우 reader를 통해서 데이터를 어떻게 읽어들일지 설정.  
-**rowNum** : 초기에 출력할 데이터의 개수를 설정.  
-**pager** : 그리드의 대표기능인 페이저를 설정, jqGrid <Table> 하위에 <div> 를 넣어주고 그 div의 id값을 써주면 된다.(하단 예시 참고)  
-**multiselect** : row마다 selectbox가 생긴다(이벤트 처리 가능)  
-**postData** : 서버에 파라미터로 넘길 데이터를 설정한다. 배열의 형태로 설정 가능하고, <FORM> 태그로 감싼 데이터들을 한번에 serialize() 해서 보낼수도 있다.
+`jsonReader/xmlReader` : 데이터 타입이 json/xml일 경우 reader를 통해서 데이터를 어떻게 읽어들일지 설정.  
+`rowNum` : 초기에 출력할 데이터의 개수를 설정.  
+`pager` : 그리드의 대표기능인 페이저를 설정, jqGrid <Table> 하위에 <div> 를 넣어주고 그 div의 id값을 써주면 된다.(하단 예시 참고)  
+`multiselect` : row마다 selectbox가 생긴다(이벤트 처리 가능)  
+`postData` : 서버에 파라미터로 넘길 데이터를 설정한다. 배열의 형태로 설정 가능하고, <FORM> 태그로 감싼 데이터들을 한번에 serialize() 해서 보낼수도 있다.
 
-**loadComplete** : 서버에 모든 요청 후 즉시 발생
+`loadComplete` : 서버에 모든 요청 후 즉시 발생
 
-**onCellSelect** : 그리드의 특정 셀을 클릭시 발생ondblClickRow : row가 더블클릭한 직후 발생
+`onCellSelect` : 그리드의 특정 셀을 클릭시 발생ondblClickRow : row가 더블클릭한 직후 발생
 
-**autowidth**: true,    // jQgrid width 자동100% 채워지게  
-**shrinkToFit**: false,  // width를 자동설정 해주는 기능
+`autowidth`: true,    // jQgrid width 자동100% 채워지게  
+`shrinkToFit`: false,  // width를 자동설정 해주는 기능
 
 ```javascript
 // FORM 태그로 감싼 모든 Submit 데이터
@@ -203,4 +203,4 @@ jquery 버전 차이 때문에 발생하는 에러이다.
 
 \- 변경할 예시 : $.jgrid.gridDestroy("grid");
 
-**GridUnload** 도 에러가 발생하면 동일하게 처리 가능
+`GridUnload` 도 에러가 발생하면 동일하게 처리 가능

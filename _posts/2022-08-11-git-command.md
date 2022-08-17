@@ -29,15 +29,15 @@ post_image: "/assets/images/git/git.png"
 
 ## commit 명령어
 
-**파일명.확장자명**을 스테이지에 올림
+`파일명.확장자명`을 스테이지에 올림
    ```bash
    $ git add 파일명.확장자명
    ```
-커밋 메시지 **메시지명**을 붙여 커밋
+커밋 메시지 `메시지명`을 붙여 커밋
    ```bash
    $ git commit -m "메시지명"
    ```
-메시지 **메시지명**을 붙여서 스테이징과 커밋을 동시에 진행
+메시지 `메시지명`을 붙여서 스테이징과 커밋을 동시에 진행
    ```bash
    $ git commit -a -m "메시지명"
    ```
@@ -88,7 +88,7 @@ post_image: "/assets/images/git/git.png"
 
 ## 브랜치 명령어
 
-새로운 브랜치 **브랜치명**을 생성
+새로운 브랜치 `브랜치명`을 생성
    ```bash
    $ git branch 브랜치명
    ```
@@ -96,7 +96,7 @@ post_image: "/assets/images/git/git.png"
    ```bash
    $ git branch
    ```
-**브랜치명**으로 체크아웃(이동)
+`브랜치명`으로 체크아웃(이동)
    ```bash
    $ git checkout 브랜치명
    ```
@@ -119,7 +119,7 @@ post_image: "/assets/images/git/git.png"
    ```bash
    $ git log --branches --graph
    ```
-**브랜치명**을 master 브랜치와 병합
+`브랜치명`을 master 브랜치와 병합
    ```bash
    $ git merge 브랜치명
    $ git merge 브랜치명 --edit // 병합 후 바로 vi 편집기가 나오면서 커밋 메시지 수정 가능
@@ -165,12 +165,12 @@ SSH 키를 생성함
    ```bash
    $ git remote remove origin
    ```
-   원격 저장소를 **지역저장소명**에 복제하기
+   원격 저장소를 `지역저장소명`에 복제하기
    ```bash
    $ git clone 원격 저장소 주소
    ```
 원격 저장소의 커밋을 가져오기만 하고 merge하지 않는다
-   가져온 branch 내용은 origin/**브랜치** 로 저장됨
+   가져온 branch 내용은 origin/`브랜치` 로 저장됨
    ```bash
    $ git fetch
    ```
@@ -178,19 +178,19 @@ SSH 키를 생성함
    ```bash
    $ git diff test origin/test # 브랜치 이름이 test일 경우 예시
    ```
-패치로 가져온 정보가 있는 브랜치\**FETCH_HEAD\**로 이동
+패치로 가져온 정보가 있는 브랜치\`FETCH_HEAD\`로 이동
    ```bash
    $ git checkout FETCH_HEAD
    ```
-패치로 가져온 정보가 있는 브랜치**FETCH_HEAD**를 master 브랜치에 병합한다
+패치로 가져온 정보가 있는 브랜치`FETCH_HEAD`를 master 브랜치에 병합한다
    ```bash
    $ git merge FETCH_HEAD
    ```
-**브랜치명**을 만드는 것과 동시에 체크아웃한다
+`브랜치명`을 만드는 것과 동시에 체크아웃한다
    ```bash
    $ git checkout -b 브랜치명
    ```
-원격 저장소에 **브랜치명**의 브랜치의 커밋을 올린다
+원격 저장소에 `브랜치명`의 브랜치의 커밋을 올린다
    ```bash
    $ git push origin 브랜치명
    ```
@@ -210,11 +210,11 @@ SSH 키를 생성함
    ```bash
    $ cd init 디렉토리명
    ```
-현재 커밋을 다른 브랜치에 있는 **커밋메시지** 커밋으로 되돌림
+현재 커밋을 다른 브랜치에 있는 `커밋메시지` 커밋으로 되돌림
    ```bash
    $ git reset 커밋메시지 커밋해시
    ```
-병합이 끝난 **브랜치명**을 삭제
+병합이 끝난 `브랜치명`을 삭제
    ```bash
    $ git branch 브랜치명 -d
    ```
