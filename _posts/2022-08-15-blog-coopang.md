@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Blog] 스토리에 쿠팡파트너스 배너 넣기"
+title: "[Blog] 티스토리에 쿠팡파트너스 배너 넣기"
 date: 2022-08-15 15:12:09 +0600
 categories: [Blog]
 author: EuiSangYu
