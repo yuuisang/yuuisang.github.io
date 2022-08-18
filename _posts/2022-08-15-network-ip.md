@@ -4,7 +4,7 @@ title: "[Network] 공인 IP 대역과 사설 IP 대역"
 date: 2022-08-15 15:12:09 +0600
 categories: [Network]
 author: EuiSangYu
-post_image: "/assets/images/Network/ip.png"
+post_image: "/assets/images/network/ip.png"
 ---
 
 회사에서 업무를 보다보면 `IP 주소` 관련해서 헷갈리는 경우가 많았다. 내부 IP 주소와 고객사 IP 주소 등..
