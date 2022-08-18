@@ -78,7 +78,10 @@
                             {% endif %}
                         <ul class="social-link list-inline">
                             <li class="list-inline-item"><a href="https://www.github.com/yuuisang"><i class="fab fa-github"></i></a></li>
-                            {% if page.facebook %}
+                            {% if page.instagram %}
+                            <li class="list-inline-item"><a href="{{page.instagram | relative_url}}"><i class="fab fa-instagram"></i></a></li>
+                            {% endif %}
+                            <!-- {% if page.facebook %}
                             <li class="list-inline-item"><a href="{{page.facebook | relative_url}}"><i class="fab fa-facebook-f"></i></a></li>
                             {% endif %}
                             {% if page.twitter %}
@@ -86,10 +89,7 @@
                             {% endif %}
                             {% if page.reddit %}
                             <li class="list-inline-item"><a href="{{page.reddit | relative_url}}"><i class="fab fa-reddit-alien"></i></a></li>
-                            {% endif %}
-                            {% if page.instagram %}
-                            <li class="list-inline-item"><a href="{{page.instagram | relative_url}}"><i class="fab fa-instagram"></i></a></li>
-                            {% endif %}
+                            {% endif %} -->
                         </ul>
                     </div>
                 </div>

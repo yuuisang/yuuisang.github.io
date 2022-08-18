@@ -8,7 +8,10 @@
         <p>{{author.bio}}</p>
         <ul class="social-link list-inline">
             <li class="list-inline-item"><a href="https://www.github.com/yuuisang"><i class="fab fa-github"></i></a></li>
-            {% if author.facebook %}
+            {% if author.instagram %}
+            <li class="list-inline-item"><a href="{{author.instagram}}"><i class="fab fa-instagram"></i></a></li>
+            {% endif %}
+            <!-- {% if author.facebook %}
             <li class="list-inline-item"><a href="{{author.facebook}}"><i class="fab fa-facebook-f"></i></a></li>
             {% endif %}
             {% if author.twitter %}
@@ -16,10 +19,7 @@
             {% endif %}
             {% if author.reddit %}
             <li class="list-inline-item"><a href="{{author.reddit}}"><i class="fab fa-reddit-alien"></i></a></li>
-            {% endif %} 
-            {% if author.instagram %}
-            <li class="list-inline-item"><a href="{{author.instagram}}"><i class="fab fa-instagram"></i></a></li>
-            {% endif %}
+            {% endif %}  -->
         </ul>
     </div>
 </div>
