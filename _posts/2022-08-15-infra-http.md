@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[Infra] HTTP(HyperText Transfer Protocol) 개념 정리"
+title: "[Network] HTTP(HyperText Transfer Protocol) 개념 정리"
 date: 2022-08-15 15:12:09 +0600
-categories: [Infra]
+categories: [Network]
 author: EuiSangYu
-post_image: "/assets/images/infra/http.png"
+post_image: "/assets/images/Network/http.png"
 ---
 
 ## HTTP란

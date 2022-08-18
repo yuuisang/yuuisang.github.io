@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "[Infra] 포트(Port)의 개념"
+title: "[Network] 포트(Port)의 개념"
 date: 2022-08-15 15:12:09 +0600
-categories: [Infra]
+categories: [Network]
 author: EuiSangYu
-post_image: "/assets/images/infra/port.png"
+post_image: "/assets/images/Network/port.png"
 ---
 
 ## 포트(Port)의 개념
