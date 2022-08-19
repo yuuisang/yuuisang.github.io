@@ -48,27 +48,28 @@ title: 메일
                   <div class="inner-title">
                      <h5 class="heading-5">Send Your Message</h5>
                   </div>
-                  <form action="#">
+                  <form class="gform" method="POST" data-email="clothes.yoo@gmail.com" 
+                        action="https://script.google.com/macros/s/AKfycbzm-PBHodHx2va9AAauDKxBxYOybY37cHxzQVRy6Qq6hJ5kqpSObQVUi-FcdJ612QUR/exec">
                      <div class="form-row">
                         <div class="col-md-12">
                            <div class="form-row">
                               <div class="col-md-12">
                                  <div class="form-group">
-                                    <input type="text" class="form-control" id="email" placeholder="Your Email" required>
+                                    <input type="text" class="form-control" id="senderEmail" name="senderEmail" placeholder="Your Email" required>
                                  </div>
                               </div>
                            </div>
                            <div class="form-row">
                               <div class="col-md-12">
                                  <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                    <input type="text" class="form-control" id="senderName" name="senderName"placeholder="Your Name" required>
                                  </div>
                               </div>
                            </div>
                            <div class="form-row">
                               <div class="col-md-12">
                                  <div class="form-group">
-                                    <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+                                    <textarea class="form-control" id="message" name="message" rows="5" placeholder="Your Message"></textarea>
                                  </div>
                               </div>
                            </div>
