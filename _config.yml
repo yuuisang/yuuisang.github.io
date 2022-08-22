@@ -5,7 +5,6 @@
 ####################################################
 
 # Site settings
-
 title: "우디의 기술블로그"
 email: "clothes.yoo@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
@@ -16,8 +15,7 @@ twitter_username: yuuisang
 github_username:  yuuisang
 logo: "/assets/images/logo.svg"
 mailchimp-list: //redgadgets.us10.list-manage.com/subscribe/post?u=210acce5db69d3d4a04b0e25d&amp;id=08c6708f40"
-
-cover_image: ""
+cover_image: "" # 커버 이미지
 
 permalink: "/:title"
 
