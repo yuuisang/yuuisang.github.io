@@ -2,6 +2,8 @@
 layout: post
 title: "[Blog] HTML form태그에서 메일보내기 : Google Apps Mail"
 date: 2022-08-19 10:00:00 +0600
+toc: true
+toc_sticky: true
 categories: [Blog]
 author: EuiSangYu
 post_image: "/assets/images/blog/html_mail.png"
