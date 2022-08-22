@@ -29,12 +29,8 @@ pagination:
       <div class="row"> 
         테스트중
         <br>
-        
-        {% for category in site.categories limit:2 %}
-        <div>{{ category }}{{ title }}</div>
+        <div>{{ site.categories }}</div>
         <!-- <li class="list-inline-item"><i class="fas fa-tag"></i><a href="{{site.baseurl}}/category/{{post.categories[0] | downcase}}">{{post.categories[0] | capitalize}}</a></li> -->
-        <!-- <meta content="{{ category }}" property="article:section"> -->
-        {% endfor %}
       </div>
     </div>
   </div>
