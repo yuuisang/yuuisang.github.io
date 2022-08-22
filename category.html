@@ -27,9 +27,14 @@ pagination:
   <div class="container">
     <div class="blog-wrapper">
       <div class="row"> 
-        테스트중
-        <br>
-        <p>{{ site.categories[0] }}</p>
+        <ul>
+          {% for post in site.posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+        <!-- <p>{{ site.categories }}</p> -->
         <!-- <li class="list-inline-item"><i class="fas fa-tag"></i><a href="{{site.baseurl}}/category/{{post.categories[0] | downcase}}">{{post.categories[0] | capitalize}}</a></li> -->
       </div>
     </div>
