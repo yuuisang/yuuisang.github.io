@@ -8,25 +8,27 @@ pagination:
 
 <div class="blog-area bg-color1 p-t-130 p-b-130">
   <div class="container">
-    <div class="blog-wrapper">
-      <div> 
-        {% for category in site.categories %}
-          <h2>{{ category[0] }}</h2>
-          <ul style="
-          list-style: none;
-          padding: 60px 50px;
-          box-shadow: 0 0 10px 0 rgb(25 100 227 / 10%);
-          transition: all .5s ease;
-          border-radius: 5px;
-          background-color: #fff; ">
-            {% for post in category[1] %}
-            <li>
-              <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-            {% endfor %}
-          </ul>
-        {% endfor %}
+    <article class=""  data-aos="fade-up">
+      <div class="blog-wrapper">
+        <div> 
+          {% for category in site.categories %}
+            <h2>{{ category[0] }}</h2>
+            <ul style="
+            list-style: none;
+            padding: 60px 50px;
+            box-shadow: 0 0 10px 0 rgb(25 100 227 / 10%);
+            transition: all .5s ease;
+            border-radius: 5px;
+            background-color: #fff; ">
+              {% for post in category[1] %}
+              <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          {% endfor %}
+        </div>
       </div>
-    </div>
+    </article>
   </div>
 </div>
