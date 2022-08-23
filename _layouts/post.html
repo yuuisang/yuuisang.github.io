@@ -25,7 +25,7 @@ layout: default
                                 style="width:336px;"></ins>
                     <script>
                         if(window.innerWidth < 710) {
-                            $('#ad-top-left').remove();
+                            document.getElementById('ad-top-left').remove();
                         } else {
                             adPush();
                         }
@@ -67,17 +67,9 @@ layout: default
                         data-ad-format="autorelaxed"
                         data-ad-client="ca-pub-2114737769603426"
                         data-ad-slot="1755579345"></ins>
-                <!-- <script>
-                    if(!checkMainPage()) {
-                        var mainAds = $('.main-ads');
-                        if(mainAds.prev().prop('tagName') == 'H2') {
-                            mainAds.prev().remove();
-                        }
-                        mainAds.remove();
-                    } else {
-                        adPush();
-                    }
-                </script> -->
+                <script>
+                    adPush();
+                </script>
             </div>
 
             <!-- 글 본문 밑 쿠팡 파트너스 -->
