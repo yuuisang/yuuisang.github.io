@@ -360,7 +360,7 @@ src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-
 
 ---
 
-# 마무리
+## 마무리
 
 여기까지만 하면 일단 기능적으로는 전부 끝났다.
 CSS 나 메일 수신시 양식을 변경하는 것은 반드시 해야하는 기능은 아니기 때문에 작성하지 않으려고 한다.
