@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[경제용어] 베어마켓랠리(Bear-Market rally)"
+title: "[경제공부] 베어마켓랠리(Bear-Market rally)"
 date: 2022-08-23 22:00:00 +0600
 toc: true
 toc_sticky: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[경제용어] 데드 캣 바운스(Dead Cat Bounce)"
+title: "[경제공부] 데드 캣 바운스(Dead Cat Bounce)"
 date: 2022-08-23 22:00:00 +0600
 toc: true
 toc_sticky: true
