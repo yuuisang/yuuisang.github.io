@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[경제공부] 양적완화(QE)를 넘어 양적긴축(QT)의 시대로 간다(+테이퍼링)"
+title: "[경제공부] 양적완화(QE)를 넘어 양적긴축(QT)의 시대로(+테이퍼링)"
 date: 2022-08-25 22:00:00 +0600
 toc: true
 toc_sticky: true
