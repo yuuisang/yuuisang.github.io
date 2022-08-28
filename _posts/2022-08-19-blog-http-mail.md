@@ -2,14 +2,12 @@
 layout: post
 title: "[Blog] HTML form태그에서 메일보내기 : Google Apps Mail"
 date: 2022-08-19 10:00:00 +0600
-toc: true
-toc_sticky: true
 categories: [Blog]
 author: EuiSangYu
 post_image: "/assets/images/blog/html_mail.png"
 ---
 
-티스토리에서 깃허브 블로그로 넘어오면서 내 블로그를 방문한 사람들이 하고싶은 말을 바로 나에게 편하게 보낼 수 있도록 메일 서비스를 적용하고 싶었다.
+티스토리에서 깃허브 블로그로 넘어오면서 내 블로그를 방문한 사람들이 전달하고 싶은 말을 바로 나에게 편하게 보낼 수 있도록 메일 서비스를 적용하고 싶었다.
 
 HTML에서 `mailto`를 사용하면, 구현은 간단하지만 outlook 등 같은 서드파티 앱을 실행해 직접 메일을 보내는 방식이기 때문에 내가 생각한 편리함은 없었다.
 
@@ -360,7 +358,7 @@ src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-
 
 ---
 
-## 마무리
+# 마무리
 
 여기까지만 하면 일단 기능적으로는 전부 끝났다.
 CSS 나 메일 수신시 양식을 변경하는 것은 반드시 해야하는 기능은 아니기 때문에 작성하지 않으려고 한다.
