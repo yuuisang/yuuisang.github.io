@@ -32,7 +32,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-2">
+                <div class="col-md-6 col-lg-3">
                     <div class="footer-widget">
                         <div class="widget-title">
                             <h5 class="heading-5">Solutionst</h5>
@@ -47,20 +47,31 @@
                     </div>
                 </div>    
 
+
                 <div class="col-md-6 col-lg-3">
                     <div class="footer-widget">
                         <div class="widget-title">
-                            <h4 class="heading-4" style="color: #fff;">네이버 이웃추가</h4>
+                            <h5 class="widget-title heading-5">Subscribe</h5>
                         </div>
-                        <div>
-                            <!-- 네이버 이웃커넥트 -->
-                            <script src="https://blog.naver.com/connect/WidgetRender.naver?blogId=dmltkd1974&widgetSeq=1&authCode=1680e8827de3d8b8da7dd7b8213c0e2bafc812c">                                
-                            </script>
-                        </div>
+                        <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
+                            <div class="form-group">
+                                <input type="text" class="form-control required email" placeholder="Your Email">
+                            </div>
+                            <div class="form-group m-0">
+                                <button name="subscribe" class="btn btn-primary btn-block" type="submit">Submit Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>    
+                
+                
+                <div class="col-md-6 col-lg-3">
+                    <div class="footer-widget">
+                        <!-- 네이버 이웃커넥트 -->
+                        <script src="https://blog.naver.com/connect/WidgetRender.naver?blogId=dmltkd1974&widgetSeq=1&authCode=1680e8827de3d8b8da7dd7b8213c0e2bafc812c">                                
+                        </script>
                     </div>
                 </div>
-
-                         
 
             </div>
         </div>
