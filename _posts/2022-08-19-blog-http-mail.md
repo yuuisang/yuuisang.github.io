@@ -25,7 +25,7 @@ HTML에서 `mailto`를 사용하면, 구현은 간단하지만 outlook 등 같�
 
 ## 메일 보내는 페이지(화면)
 
-![](https://velog.velcdn.com/images/clothes/post/84031f2b-07c5-4462-9341-b572bbd436d5/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122577-510b97eb-c777-41e9-877d-aa5c07b4d9de.png)
 
 위 사진은 내 블로그에서 전달할 내용과 정보를 입력하는 페이지이다.
 페이지는 이미 구성을 했고, 이제 기능을 구현해보자.
@@ -46,7 +46,7 @@ HTML에서 `mailto`를 사용하면, 구현은 간단하지만 outlook 등 같�
 
 본인 Google 계정에 로그인하고 "사본 만들기"를 클릭
 
-![](https://velog.velcdn.com/images/clothes/post/ce03d8cd-4975-41d5-ba1d-65c6c1ca47e7/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122597-e65ea2fe-1c9e-49be-b090-93eb23a45ec5.png)
 
 사본 만들기를 클릭하고 나면 이렇게 클라우드에서 사본이 열린다.
 
@@ -56,40 +56,40 @@ HTML에서 `mailto`를 사용하면, 구현은 간단하지만 outlook 등 같�
 > 위에 가이드 문서에서는 `도구` -> `스크립트편집기` 라고 나와있는데 나는 메뉴가 달라 저렇게 구성되어 있었다.. 아마 버전의차이아닐까
 
 #### 3. 스크립트에서 TO_ADDRESS 를 설정
-![](https://velog.velcdn.com/images/clothes/post/8049f75c-6383-4939-a48e-979b54df3192/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122620-5d12c4aa-6e17-4e6b-9134-a961be3df119.png)
 
 해당 빨간 밑줄 부분을 `본인 메일주소`로 수정
 
 #### 4. 스크립트의 새로운 버전 저장
-![](https://velog.velcdn.com/images/clothes/post/54251068-a1d1-4c5a-b30c-5d62a5a0c28c/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122648-b8f55a3c-ab18-4bd7-888b-fec84a1ef029.png)
 
 메뉴에서 `파일` -> `버전기록` -> `현재버전 이름저장` 클릭
-![](https://velog.velcdn.com/images/clothes/post/d9a4bdf2-89d2-41cc-81dc-bb6b99f89f6e/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122675-2f0280b6-dc39-4d1d-ae8e-a5d33b1a6140.png)
 
 여기까지 완료했다면
 
 #### 5. 업데이트된 스크립트를 웹 앱으로 배포
 
-![](https://velog.velcdn.com/images/clothes/post/746bec71-a211-4b34-9744-87968e45aa26/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122697-3f713693-597a-4e40-9a89-a84c6239be0c.png)
 
 해당 스크립트 안에서 `배포` -> `새 배포` 클릭
 
-![](https://velog.velcdn.com/images/clothes/post/9c29fa60-fcfa-4419-86ee-7992569dbd42/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122711-7cfcaa2e-0c8b-4930-89d4-bf930e4b7ebd.png)
 
 아무 설명이나 써넣고 `배포` 클릭
 
 #### 6. 이메일을 보내기 위해 스크립트를 인증
 
-![](https://velog.velcdn.com/images/clothes/post/66b40aa6-f748-4cc4-98b8-27681758c4f0/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122743-61ca440e-45ca-45b1-a3f6-c8f21fbe044a.png)
 
 해당 인증 부분 캡처들을 못 찍어서 `참조 이미지로 대체`함.
 
-![](https://velog.velcdn.com/images/clothes/post/03db1d36-c675-43da-bf64-743fdfb64d8f/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122772-a4f6a848-43da-4830-9242-9ab39c55dc79.png)
 
 이제 배포 ID와 웹 URL을 메모장 같은 곳에 기록해두고 마무리!
 > 잊어버려도 `배포관리` 메뉴에 들어가면 다시 확인할 수 있음.
 
-![](https://velog.velcdn.com/images/clothes/post/42632cbb-c4e5-467c-9adf-9309a53d45d1/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122793-a626be3e-606d-497e-af28-b991d08be925.png)
 
 #### 7. 이제 실제 화면 페이지를 구성(HTML)
 
@@ -304,22 +304,22 @@ title: 연락하기
 3. Form태그의 action 속성을 전 단계에서 복사해놓은 URL로 고쳐야 함을 잊지 말 것!!(중요)
 
 ```
-![](https://velog.velcdn.com/images/clothes/post/67ed6cc6-99a8-4fa7-bf39-8901a39477c2/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122825-dc72e3b8-a115-4223-ae50-738be3818aba.png)
 
 #### 9. 브라우저에서 HTML Form (페이지) 열기
 
 1. HTML Form에서 테스트 데이터를 채움
 
-![](https://velog.velcdn.com/images/clothes/post/9d03849c-4fb6-4aad-9d0a-c673814675ca/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122852-c9fc81d2-3d3c-42db-bfdd-974e82cbf5f1.png)
 
 2. submit 버튼 클릭 후 json 결과 데이터 확인
-![](https://velog.velcdn.com/images/clothes/post/b93a3fff-24ce-4ff4-8d5b-353d2670836d/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122867-3f18e881-341f-45fd-a7eb-3a90a3f95699.png)
 
 참고로 위 2개의 캡처는 참조용 이미지임.
 
 #### 10. 아까 설정했던 본인 메일주소로 들어가 받은편지함을 확인
 
-![](https://velog.velcdn.com/images/clothes/post/fdd90129-b4c0-447a-9529-0fb3d626891e/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122897-efcff9bc-176b-43a2-9c75-386cfa699382.png)
 
 #### 11. JavaScript 와 "AJAX" 를 사용한 양식 제출 + 양식이 제출될 때 나오는 메시지 커스터마이징
 
@@ -350,11 +350,11 @@ src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-
 </div>
 ```
 
-![](https://velog.velcdn.com/images/clothes/post/ca6fcef0-3b3d-4641-b234-b4765767a3d3/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122929-4530c0f4-93c0-4768-9fc8-302f61ce60bd.png)
 
 사용자들에게 전송이 잘 되었다는것을 알리기 위한 것이므로 나는 Alert 메세지까지 추가했다.
 
-![](https://velog.velcdn.com/images/clothes/post/546bc492-b7f9-457a-82ae-30e566fbe1dd/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122976-6a369e42-e340-4727-b134-4df94f01f2ac.png)
 
 ---
 

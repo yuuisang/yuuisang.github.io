@@ -20,16 +20,16 @@ post_image: "/assets/images/blog/coopang.png"
 
 ## 2. 쿠팡 파트너스 로그인
 
-![](https://velog.velcdn.com/images/clothes/post/7cc68377-d04a-4353-b93e-6a9a28158792/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123088-2b2b6d1f-19e3-4531-b969-7199d3ab62fe.png)
 
 여기서 `가입하는 과정`부터 보자면
 
 ### 2-1. 쿠팡 파트너스 회원가입
 
-![](https://velog.velcdn.com/images/clothes/post/763babd5-6a9b-47ea-a633-cbbfed9efedb/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123115-36759eba-c92d-4153-a472-1a816978af02.png)
 
 
-![](https://velog.velcdn.com/images/clothes/post/04d7e31f-4a17-4701-99e7-01d66e8cebd6/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123134-66e2b075-5849-4d5f-bc13-daa5cb6832be.png)
 
 
 `추천인 ID`
@@ -38,19 +38,19 @@ post_image: "/assets/images/blog/coopang.png"
 AF6600364
 ```
 
-![](https://velog.velcdn.com/images/clothes/post/f095efe4-810d-4117-aa32-ccf40b169ada/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123155-9d20c4c2-30ec-406c-b731-98b3e523340f.png)
 
-![](https://velog.velcdn.com/images/clothes/post/7ba1c609-a3af-4917-bb5d-8a9c403eabdd/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123176-f8c3728f-7dc1-4452-8145-f24641cca1fe.png)
 
 
 ## 3. 쿠팡 파트너스 로그인 후 #링크 생성
 
-![](https://velog.velcdn.com/images/clothes/post/6915a038-8a42-4e6f-941f-4e7c21a19633/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123193-023b911d-a796-4556-b6bf-c75b0332ac04.png)
 
 
 ## 4. 배너 만들기
 
-![](https://velog.velcdn.com/images/clothes/post/0797df33-01e5-4eca-b568-6e2671b4d6c6/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123216-01ed5b7a-e117-4a19-942c-ad4dcfa60bc9.png)
 
 설정값은 마음대로 해도 괜찮고, 크기는 `본인 블로그에 이 배너가 들어갈 공간의 크기`에 맞게 설정해주면 된다.
 
@@ -66,7 +66,7 @@ AF6600364
 
 ## 5. 티스토리 스킨 편집에 생성한 쿠팡파트너스 배너 추가
 
-![](https://velog.velcdn.com/images/clothes/post/07d12ddc-2c70-4061-a113-8cfa9079a501/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123242-3331732d-62cb-4c75-8d05-9be0b6566d31.png)
 
 
 ```html
@@ -106,5 +106,5 @@ AF6600364
 
 ## 6. 결과물
 
-![](https://velog.velcdn.com/images/clothes/post/26bf6f1e-5ffd-4a74-b50d-3acd86914bee/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123258-b1ae1fb3-c5df-4920-9a08-089519e58c85.png)
 

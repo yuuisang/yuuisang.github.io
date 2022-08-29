@@ -23,7 +23,7 @@ HTTP(Hypertext Transfer Protocol)하이퍼텍스트 전송 규약. 웹 브라우
 
 ## HTTP의 통신 과정
 
-![](https://velog.velcdn.com/images/clothes/post/3407ca34-53d2-4ae3-9396-804de492cf7b/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123035-51c524f7-c960-46e4-b960-e81834faa180.png)
 
 
 클라이언트(사용자)가 서버에 `HTTP Request (요청) 전송`  

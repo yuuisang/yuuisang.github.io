@@ -219,10 +219,10 @@ $ kill -9 PID (-9옵션을 주면 강제종료 한다.)
 ### df
 파일 시스템 디스크 사용량을 조회하는 명령어
 
-![](https://velog.velcdn.com/images/clothes/post/dda55e95-6772-4ea8-90d1-1c6a7f5a91c9/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123318-93ea29b6-3144-4e74-a22a-9b37e2a5a76f.png)
 
 #### 옵션들
-![](https://velog.velcdn.com/images/clothes/post/dd907507-1312-4c28-99fd-283495dc8441/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123331-54dcc4af-2369-43b2-a93e-a3c5956cab26.png)
 
 일반적으로 `df -h` 가 가장 많이 사용된다.
 ```bash
@@ -232,7 +232,7 @@ $ df -h
 ### du
 df 명령어가 시스템 전체의 디스크 공간을 확인하는 명령어라면, du 명령은 특정 디렉토리를 기준으로 디스크 사용량을 확인할 수 있다.
 
-![](https://velog.velcdn.com/images/clothes/post/afcfaca7-73ad-470b-8bc0-7ac48c43e9c0/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187123349-2c151b89-eb81-48c9-b906-9b1941388542.png)
 
 디렉토리 안에 있는 서브 디렉토리의 디스크 사용량도 표시함.
 ```bash

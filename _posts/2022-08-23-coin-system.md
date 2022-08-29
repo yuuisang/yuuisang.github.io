@@ -55,7 +55,7 @@ post_image: "/assets/images/coin/tokenPercent.png"
 
 먼저 코인의 공급량은 코인의 전체 공급 수, 현재 유통되고 있는 수량이다. [코인 마켓캡](https://coinmarketcap.com/ko/) 혹은 [코인 게코](https://www.coingecko.com/ko) 사이트에 들어가보면 유통되고 코인의 현재 수와 최종적으로 공급되는 코인의 수를 확인 할 수 있다.
 
-![](https://velog.velcdn.com/images/clothes/post/816b7c00-d050-4505-8c6d-d909b8215dda/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122423-44bf6fa5-bfc6-4c83-9f0c-94cd70055565.png)
 
 
 비트코인의 현재 유통 공급량을 보면 `19,014,856 개`이다.
@@ -70,14 +70,14 @@ post_image: "/assets/images/coin/tokenPercent.png"
   
 개발사의 입장에서 생각해보면 코인 락업기간이 1년 이내로 짧으면, 코인 개발을 하다가 이른 시일내에 수익실현을 하고 프로젝트를 엑시트 할 수 있기 때문에 좋을 수 있다. 반대로 락업기간이 장기간이 된다면 수익실현까지 너무 긴 기간이 필요하게 되어 개발사의 성취 동기가 떨어질 수 있다는 점이 있다.  
 
-![](https://velog.velcdn.com/images/clothes/post/aabd8700-3e43-480f-87f3-9e58fd299848/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122435-158d96f7-32f2-4ff9-8b1e-17193620b384.png)
 
 
 NFT 플랫폼 코인 중 하나인 Flow 의 경우 2021년 10월 16일에 대규모 코인이 락업이 해제 되며 시장에 유통되었다.
 
 현재 유통되고 있는 코인의 수는 약 7200만개 인데, 10월 17일에 4배가 넘는 수인 3억 1500만개의 코인이 풀리게 되었다.
 
-![](https://velog.velcdn.com/images/clothes/post/5cfa0b57-1a54-48cf-b572-e705441de224/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122455-5374ce8e-1bb8-42a4-901e-8e3712456d85.png)
 
 
 락업이 풀린 후 예상대로 15% 이상 하락이 왔다.
@@ -92,7 +92,7 @@ NFT 플랫폼 코인 중 하나인 Flow 의 경우 2021년 10월 16일에 대규
 
 일반적으로 코인 홀더는 개발사, 초기 투자자, 일반 개인투자자, 코인 생태계 활용 물량으로 나뉜다.
 
-![](https://velog.velcdn.com/images/clothes/post/0e53c9c3-4d70-431f-b288-f9ccda9606bb/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122480-8e736249-8a4e-420c-ade4-6c373fbfbe40.png)
 
 
 최근 핫한 코인 프로젝트 중의 하나인 '엑시인피니티'를 예로 들어 보자면, 초기 VC투자자가 21%, 개발사가 21% 를 가지고 있어 총 토큰의 42% 정도를 가지고 있다. 게임으로 얻을 수 있는 토큰이 20%이며 홀더들이 스테이킹 보상으로 얻을 수 있는 토큰이 29%이다. 그러므로 홀더들이 게임을 하거나 홀딩 함으로써 얻을 수 있는 토큰은 49% 이다.
@@ -105,7 +105,7 @@ NFT 플랫폼 코인 중 하나인 Flow 의 경우 2021년 10월 16일에 대규
 
 마지막으로 `토큰의 사용처`를 확인할 수 있다. 이더리움을 예로 들면 이더리움은 기본 유통 흐름은 유저들의 거래 이다. 거래로 인한 유통 흐름 이외에도 이더리움을 스테이킹 하여 보상을 받을 수 있다. 그리고 이더리움을 전송하거나 스마트 컨트랙을 발생 시킬 때 발생하는 수수료는 소각이 된다. 즉 이더리움을 통한 거래를 많이 할 수록 더많은 이더리움이 소각 되기 때문에 이더리움의 희소 가치(가격)는 더욱 올라갈 수밖에 없다. 
 
-![](https://velog.velcdn.com/images/clothes/post/50856f03-2e71-4ce6-801c-803a906631ab/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122504-50b81661-2c94-4a25-ba4c-eb2a82fa6d9e.png)
 
 ## 마무리
 

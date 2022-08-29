@@ -14,26 +14,26 @@ post_image: "/assets/images/dev/warExportError.png"
 다행히 쉽게 해결할 수 있는 환경설정 문제였어서 나중에 까먹을까봐 정리해둔다.
 
 ## WAR 파일 Export 시도
-![](https://velog.velcdn.com/images/clothes/post/df89a088-2624-40af-8122-636292e16425/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122183-7f1a0d01-eab9-4b26-a2a5-a3063ab16aed.png)
 
 ## Module name is invalid 에러 발생
-![](https://velog.velcdn.com/images/clothes/post/dfaec65c-3696-4074-9d98-8c639e1c701a/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122203-716c385d-ebb2-4e85-a1bd-68677136481f.png)
 
 ## 프로젝트 설정 변경
 1. `Properties` 진입
-![](https://velog.velcdn.com/images/clothes/post/596a4d64-ff75-4fb3-9e7f-d6ca74266746/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122219-28b3c495-3ca8-4c63-9636-5775a243186e.png)
 
 2. `Project Facets` -> `Dynamic Web Module` 체크 후 Apply
-![](https://velog.velcdn.com/images/clothes/post/80fe4cef-359f-47bf-82b5-ca9f8b089582/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122242-193bb942-ba48-4dd1-bf1d-b2f22e7b4765.png)
 
 3. 적용 중 모습
-![](https://velog.velcdn.com/images/clothes/post/1ca45095-5d00-4448-baef-1962fce78d8f/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122257-8503a968-df33-4905-834c-ef19a1844193.png)
 
 4. 완료 후 다시 Export 시도
-![](https://velog.velcdn.com/images/clothes/post/282bf160-ef1f-44a0-9b92-abf418f126fd/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122283-f75040f3-bf02-4cb6-b669-26597164cc70.png)
 
 5. 정상적으로 추출 완료!
-![](https://velog.velcdn.com/images/clothes/post/67979120-af04-4baf-83b7-7047c82c9ee0/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187122296-78b4ac1f-3e39-4945-ba56-f65437305599.png)
 
 
 ## 마무리
