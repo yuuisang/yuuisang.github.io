@@ -15,28 +15,28 @@ post_image: "/assets/images/telegram/telegram.png"
 
 node.js 를 설치(본인 운영체제에 맞게)
 
-![](https://velog.velcdn.com/images/clothes/post/b84b72ba-d950-4c21-b226-1930cf018cef/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135082-0ba7ca3c-a5c1-4fc0-a754-f94fa842c52e.png)
 
 package.json 파일을 설정
 
-![](https://velog.velcdn.com/images/clothes/post/4e748443-92fd-4a23-ba24-3faa5f96cc98/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135118-1948db38-bc25-4e53-8fb6-49abf6fe1763.png)
 
 추후에 필요한 모듈들은 필요할 때마다 터미널에 'npm install \_\_ ' 해서 사용!
 
 ## 프로그램 올릴 개인용 무료 서버 [Heroku](https://dashboard.heroku.com) 가입 및 등록
 
-![](https://velog.velcdn.com/images/clothes/post/6c262617-fc08-4996-add7-48206442292f/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135139-31109018-a7bd-411d-9aa3-931454ad6b97.png)
 
 여기서도 설정할 것들이 꽤나 있었다.
 
-![](https://velog.velcdn.com/images/clothes/post/856c3118-f9b6-4651-b60b-bda9a1c0891a/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135180-a5994a92-a581-4454-a538-cd236085f319.png)
 
 
 해당 Settings 메뉴에서 Config Vars 에 텔레그램에서 발급받은 키를 입력했다.(`중요`!)
 
 INTERVAL은 몇초마다 결과를 받을지 테스트할겸 적용한 값이다.(중요하지 않음)
 
-![](https://velog.velcdn.com/images/clothes/post/80d20113-b943-4950-ba50-05922010565c/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135203-756c5251-94be-49c0-92e4-de0819433698.png)
 
 
 Heroku에 올릴 때도 깃 명령어는 다른 깃 사용법과 동일하다.
@@ -67,7 +67,7 @@ Heroku는 일정 시간 동안 deploy한 앱에 접속 요청이 없을 경우, 
 
 가입후 대시보드에서 `New Monitor` 클릭한 뒤 본인이 원하는 도메인을 세팅하면 된다.
 
-![](https://velog.velcdn.com/images/clothes/post/929b05ea-3341-4a41-83c6-098d66b5b3cf/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135221-0bc88239-90da-4e42-9253-8ae77ecea7ed.png)
 
 ## 텔레그램 봇 API key 발급
 
@@ -500,18 +500,18 @@ require('./web');
 
 이렇게 구성을해서 테스트 중이었고 실제로 텔레그램 봇으로 코인 정보를 10초마다 실시간으로 채팅 받는 것까지 성공했다...
 
-![](https://velog.velcdn.com/images/clothes/post/fca5aaf9-60dd-4913-8fbd-3640328aad69/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135267-ad09a681-684e-4e86-a135-b50dbc520cef.png)
 
 
-![](https://velog.velcdn.com/images/clothes/post/c795d370-8c83-45c5-9060-fe050d703474/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135317-e335c5e2-5904-430d-85b5-529dec8dea40.png)
 
 
 ~~하지만...원화 마켓에 있는 총 113개의 코인의 이름과 현재 종가(trade\_price)를 한번에 받아오려고 하니 업비트의 Rest API 요청 수 제한이 있다는 사실을 뒤늦게 깨달아 버렸다...😡😡~~
 
-![](https://velog.velcdn.com/images/clothes/post/c740c6eb-fa6c-4810-a094-65265adc602d/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135347-9b3c29cb-36be-4280-9201-9c33f821a4fd.png)
 
 
-![](https://velog.velcdn.com/images/clothes/post/98be74a5-9904-4799-96c8-08c818882e21/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135397-e0f40c1d-c366-495c-b978-289481199e6b.png)
 
 
 그리하여 나의 8시간을 불태운 작업은 여기서 마무리 되었다.
@@ -520,7 +520,7 @@ require('./web');
 
 그리고 생각해보니 가능하면 트위터 API도 같이 끌어와야겠다... 매번 트위터켜서 코인들 소식 검색하는것도 귀찮으니ㅜ
 
-![](https://velog.velcdn.com/images/clothes/post/84d50146-c8fe-4ac3-ae76-e0a9a7ba51d9/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135423-c2ec0639-e093-4e8a-b258-d524be124ae7.png)
 
 
 지금 굉장히 허무해서 설명을 너무 대충적은거 같은데 밑에 내가 참고한 사이트들을 전부 링크에 걸어둘테니 참고하면서 하면 될 것같다.

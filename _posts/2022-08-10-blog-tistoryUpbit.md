@@ -15,7 +15,7 @@ post_image: "/assets/images/blog/upbit.png"
 
 ## 결과물
 
-![](https://velog.velcdn.com/images/clothes/post/70e1ae13-c1a4-495d-9a67-4a5d79a4f00c/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135590-905fe105-2ae3-4b67-8daf-862683a6ee32.png)
 
 
 ## HTML 코드
@@ -243,7 +243,7 @@ post_image: "/assets/images/blog/upbit.png"
 
 [juni-official.tistory.com](https://juni-official.tistory.com/)
 
-![](https://velog.velcdn.com/images/clothes/post/95e593ac-5fed-48be-ad89-1a9ab34208f8/image.png)
+![image](https://user-images.githubusercontent.com/58925978/187135632-fe05ac07-8453-4f77-af79-e839df3fc186.png)
 
 
 넘나 친절하신 꾸생님
