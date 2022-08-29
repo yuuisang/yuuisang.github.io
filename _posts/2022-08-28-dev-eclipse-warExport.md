@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "[개발] 이클립스 War Export 추출 시 오류 Module name is invalid"
+title: "[IDE] 이클립스 War Export 추출 시 오류 Module name is invalid"
 date: 2022-08-28 22:00:00 +0600
 toc: true
 toc_sticky: true
-categories: [Dev]
+categories: [IDE]
 author: EuiSangYu
-post_image: "/assets/images/dev/warExportError.png"
+post_image: "/assets/images/ide/warExportError.png"
 ---
 
 회사에서 업무중 배포할 일이 있어 war 파일을 추출하려는데 갑자기 이상한 에러가나서 당황스러웠다.
