@@ -6,7 +6,7 @@ toc: true
 toc_sticky: true
 categories: [Dev]
 author: EuiSangYu
-post_image: "/assets/images/dev/warExport.png"
+post_image: "/assets/images/dev/warExportError.png"
 ---
 
 회사에서 업무중 배포할 일이 있어 war 파일을 추출하려는데 갑자기 이상한 에러가나서 당황스러웠다.
