@@ -19,6 +19,9 @@ cover_image: "" # 커버 이미지
 
 permalink: "/:title"
 
+disqus:
+  shortname: https://yuuisang.github.io/
+
 # Google Analytics
 analytics:
   provider               : google 
