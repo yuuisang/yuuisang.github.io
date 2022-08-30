@@ -129,6 +129,16 @@ layout: default
             background-color: #fff;"></div>
             <!-- / 글 본문 밑 쿠팡 파트너스 -->
 
+            <!-- disqus 댓글-->
+            <h3>일반 댓글</h3>
+            <div class="comment-wrapper blog-spacing">
+                {% include disqus_comments.html %}
+            </div>
+
+            <br>
+
+            <!-- github 댓글 -->
+            <h3>개발자 전용 댓글</h3>
             <div class="comment-wrapper blog-spacing">
                 <script src="https://utteranc.es/client.js"
                     repo="yuuisang/utterances"
@@ -139,6 +149,8 @@ layout: default
                     async>
                 </script>
             </div>
+
+
             </div>
         </div>
     </div>
