@@ -24,6 +24,8 @@ $ ps -ef | grep tomcat 명령어로 톰캣이 제대로 가동되었는지 확�
 
 여기서 만약 `./shutdown.sh` 가 동작하지 않는다면 `tomcat.pid` 파일의 `pid` 값이 현재 돌아가는 톰캣 프로세스와 일치하지 않아서 그럴 확률이 있으니 확인해볼 것.
 
+![image](https://user-images.githubusercontent.com/58925978/187592111-31eb0b18-806b-4635-aee9-46e1ec847c30.png)
+
 ![image](https://user-images.githubusercontent.com/58925978/187592195-447f6a5e-e836-48c9-ba22-ea1afd94204a.png)
 
 ```bash
